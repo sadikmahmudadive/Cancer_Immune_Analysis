@@ -1,0 +1,18 @@
+# Python / Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Raw Data (large TCGA expression files)
+data/raw/
+data/raw/*
+
+# System files
+.DS_Store
+Thumbs.db
+*.log

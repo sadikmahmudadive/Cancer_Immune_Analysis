@@ -1,0 +1,5358 @@
+{
+  "data": {
+    "hits": [
+      {
+        "id": "a4d0115d-3bb1-41df-b2a8-823cebc7104a",
+        "cases": [
+          {
+            "case_id": "05d2adb3-5c6d-4edc-ba4c-bdbf628f4eee",
+            "submitter_id": "TCGA-IB-7888",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a9f2a8e7-680c-4a24-a7cc-a67d50b746f3",
+                "submitter_id": "TCGA-IB-7888-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "e8eede96-3043-4c0a-bcd0-7e4281d9f278.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:22.746047-05:00",
+        "file_id": "a4d0115d-3bb1-41df-b2a8-823cebc7104a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:44.294737-06:00"
+      },
+      {
+        "id": "f253cd32-9c55-4541-8c6c-5e4a1db99ee1",
+        "cases": [
+          {
+            "case_id": "2ad10199-1381-42b7-b54f-da34c1b1d3c0",
+            "submitter_id": "TCGA-FB-A78T",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "49ba3a06-3a17-4675-925c-75eb461fbdbe",
+                "submitter_id": "TCGA-FB-A78T-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9e929b5c-ac99-404c-a2f0-d9d8c1079164.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:13.668890-05:00",
+        "file_id": "f253cd32-9c55-4541-8c6c-5e4a1db99ee1",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:11.087591-06:00"
+      },
+      {
+        "id": "fbd81952-f83a-4a24-86f8-5a415a722499",
+        "cases": [
+          {
+            "case_id": "2aaf212f-000a-4a9d-8a4a-198fa94f491e",
+            "submitter_id": "TCGA-2J-AABI",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "5a7a09f6-7901-406d-b393-0885b3e81e92",
+                "submitter_id": "TCGA-2J-AABI-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "87e3b726-ab2a-44c3-91b0-bebf65ef9404.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:27.949793-05:00",
+        "file_id": "fbd81952-f83a-4a24-86f8-5a415a722499",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:30.781201-06:00"
+      },
+      {
+        "id": "649f4d81-a634-4734-ba31-bdeb0877312a",
+        "cases": [
+          {
+            "case_id": "620e0648-ec20-4a12-a6cb-5546fe829c77",
+            "submitter_id": "TCGA-HZ-7918",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "42ae9a70-ea04-4403-86cc-3da6fd120cde",
+                "submitter_id": "TCGA-HZ-7918-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6813be8f-c90b-4505-9293-ed370e771ccf.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:15.677704-05:00",
+        "file_id": "649f4d81-a634-4734-ba31-bdeb0877312a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:23.928824-06:00"
+      },
+      {
+        "id": "4a1c8620-73ce-4be9-ae64-589afb3007d9",
+        "cases": [
+          {
+            "case_id": "a8c3e333-865d-4060-8ce4-453aa6f9f0e8",
+            "submitter_id": "TCGA-2J-AABO",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "976852dd-7592-46ea-b1a4-6b5b70d20a87",
+                "submitter_id": "TCGA-2J-AABO-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "4ce54c3c-0ede-4921-8a6f-97478e184c7c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:22.182234-05:00",
+        "file_id": "4a1c8620-73ce-4be9-ae64-589afb3007d9",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:40.421255-06:00"
+      },
+      {
+        "id": "84d8e8f1-fe75-46bb-9693-423d055c7fd1",
+        "cases": [
+          {
+            "case_id": "638b1a6a-c222-414c-96bc-f259f0afb278",
+            "submitter_id": "TCGA-IB-AAUN",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "71e44d9e-5f8c-4549-a33d-f785a301f152",
+                "submitter_id": "TCGA-IB-AAUN-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6f02939a-7dc3-47d6-9376-87251ea37d42.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:43.819384-05:00",
+        "file_id": "84d8e8f1-fe75-46bb-9693-423d055c7fd1",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:34.884682-06:00"
+      },
+      {
+        "id": "6adf699d-16b8-436b-add5-93045cdf9b1b",
+        "cases": [
+          {
+            "case_id": "ad220f0d-06b7-4dad-a87d-36dff31c8623",
+            "submitter_id": "TCGA-HZ-7924",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e749babb-81d9-4b12-b7c7-d9c5e4926d1b",
+                "submitter_id": "TCGA-HZ-7924-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "37fee99c-5651-4d5c-ae20-6cf661b96f68.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:56.931400-05:00",
+        "file_id": "6adf699d-16b8-436b-add5-93045cdf9b1b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:24.335943-06:00"
+      },
+      {
+        "id": "3eb32ae7-a542-4c58-8394-fef21dbeaac7",
+        "cases": [
+          {
+            "case_id": "556baca9-03d6-48a3-9216-4fc441e99f90",
+            "submitter_id": "TCGA-3A-A9I7",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7df8b4b5-c5d8-4b49-b59a-8ec5271289b4",
+                "submitter_id": "TCGA-3A-A9I7-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9e5fbb22-7d22-48ae-b077-265c11863dd9.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:51.996676-05:00",
+        "file_id": "3eb32ae7-a542-4c58-8394-fef21dbeaac7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:08.861215-06:00"
+      },
+      {
+        "id": "0c098157-254b-492b-ad08-54cf813814d9",
+        "cases": [
+          {
+            "case_id": "953359da-e535-48e6-97dc-1b4ccad6a671",
+            "submitter_id": "TCGA-FB-AAPY",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "35b924a7-0b6c-47cc-98c6-732a0711e33a",
+                "submitter_id": "TCGA-FB-AAPY-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "0c7c39b2-e01c-4df4-bfce-abae7985ef79.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:10.835241-05:00",
+        "file_id": "0c098157-254b-492b-ad08-54cf813814d9",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:26.228766-06:00"
+      },
+      {
+        "id": "ef0f7a22-52d3-4f00-a5f2-8679f5088430",
+        "cases": [
+          {
+            "case_id": "5bfe94ed-88b9-44ce-8bbd-1285ab9678a4",
+            "submitter_id": "TCGA-RB-A7B8",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e757d776-991c-47f2-8c8b-fe2c27c34133",
+                "submitter_id": "TCGA-RB-A7B8-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "716865fd-c637-4ab5-b41e-2863ee58734a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:46.171523-05:00",
+        "file_id": "ef0f7a22-52d3-4f00-a5f2-8679f5088430",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:38.845169-06:00"
+      },
+      {
+        "id": "74f8a777-aab6-4e45-b8b7-0bc69b28f809",
+        "cases": [
+          {
+            "case_id": "b0cb81ad-3c20-4d56-ab7d-f64c0caee1ce",
+            "submitter_id": "TCGA-FB-A545",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a0d91446-24ea-4973-8d50-e080fe8bfab2",
+                "submitter_id": "TCGA-FB-A545-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "efd6d79b-58d6-456a-b9c5-da8ee3e32ac7.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:21.825179-05:00",
+        "file_id": "74f8a777-aab6-4e45-b8b7-0bc69b28f809",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:56.725238-06:00"
+      },
+      {
+        "id": "3e270d2f-1ba3-4c2f-8eaf-55b97080fdab",
+        "cases": [
+          {
+            "case_id": "c24c54ea-4095-460d-bb53-e3629a56cd62",
+            "submitter_id": "TCGA-2J-AABK",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "91c8bca0-b881-4439-b186-d309c513faa2",
+                "submitter_id": "TCGA-2J-AABK-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "aca09caf-1047-4d60-8544-69ba12047a00.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:17.124961-05:00",
+        "file_id": "3e270d2f-1ba3-4c2f-8eaf-55b97080fdab",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:42.077484-06:00"
+      },
+      {
+        "id": "8c9053d8-cd32-42f2-a334-532b234edf2d",
+        "cases": [
+          {
+            "case_id": "8475c44d-e091-4c65-b1b4-9a77ae3c0e1d",
+            "submitter_id": "TCGA-FB-AAQ6",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "405d1dc6-e63e-4af4-ab64-c9257d41fef8",
+                "submitter_id": "TCGA-FB-AAQ6-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "605193ac-e3ff-4401-9b5d-c8e76a980c37.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:20.323300-05:00",
+        "file_id": "8c9053d8-cd32-42f2-a334-532b234edf2d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:09.080194-06:00"
+      },
+      {
+        "id": "e501087c-0bfa-4447-b7f3-4ca93b4a6c0e",
+        "cases": [
+          {
+            "case_id": "c26002e7-abf1-42b9-bf36-0e97249d872f",
+            "submitter_id": "TCGA-PZ-A5RE",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "be7e2197-4c7c-4ab5-a003-940054104848",
+                "submitter_id": "TCGA-PZ-A5RE-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2442dd44-a393-4160-a377-3082a9a825ba.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:43.431496-05:00",
+        "file_id": "e501087c-0bfa-4447-b7f3-4ca93b4a6c0e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:04.383750-06:00"
+      },
+      {
+        "id": "6671afe0-b094-4d02-8bdf-02e6660cea94",
+        "cases": [
+          {
+            "case_id": "53c94a86-1b4d-4833-a169-d990c460b301",
+            "submitter_id": "TCGA-US-A779",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3245150d-7305-48e2-8245-9b917c37aaa3",
+                "submitter_id": "TCGA-US-A779-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1c6e7117-0a83-4b40-bbce-9cb537343333.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:16.892255-05:00",
+        "file_id": "6671afe0-b094-4d02-8bdf-02e6660cea94",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:50.177999-06:00"
+      },
+      {
+        "id": "87e328c3-6376-40f1-9305-b2ec852d81d2",
+        "cases": [
+          {
+            "case_id": "cfda26b9-d417-425c-9a72-fa76ca4b296c",
+            "submitter_id": "TCGA-IB-AAUM",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "5045b6b2-2a2d-4132-a3b7-4e3f98d56b10",
+                "submitter_id": "TCGA-IB-AAUM-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "68559fae-166e-41ce-be48-cd98d17f8777.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:07.922247-05:00",
+        "file_id": "87e328c3-6376-40f1-9305-b2ec852d81d2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:25.647100-06:00"
+      },
+      {
+        "id": "1c49d2cb-2071-473f-a517-2010e28475ab",
+        "cases": [
+          {
+            "case_id": "6a0a280d-4a30-4071-afe7-de6b82a6e34c",
+            "submitter_id": "TCGA-IB-A7M4",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "85cded8e-caa4-4a2e-9018-6628a34e0c5b",
+                "submitter_id": "TCGA-IB-A7M4-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "002de81c-60f8-4933-a0ea-43701990ac43.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:18.213981-05:00",
+        "file_id": "1c49d2cb-2071-473f-a517-2010e28475ab",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:12.082080-06:00"
+      },
+      {
+        "id": "7ca10400-9647-4766-98bf-b5c8130346d0",
+        "cases": [
+          {
+            "case_id": "cd9dc5c5-1161-43ea-a617-1356a3b23e16",
+            "submitter_id": "TCGA-3A-A9IU",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "4d3509fe-b8a7-4a45-a32a-82ba4d5fbf95",
+                "submitter_id": "TCGA-3A-A9IU-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a66b9c55-0fcb-4a4b-a470-ce31ab62f91c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:12.962272-05:00",
+        "file_id": "7ca10400-9647-4766-98bf-b5c8130346d0",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:25.976341-06:00"
+      },
+      {
+        "id": "483e03f9-4112-4a4f-9b1b-c6330c4d7527",
+        "cases": [
+          {
+            "case_id": "232073a1-2bf3-4539-a396-bde7836f9aeb",
+            "submitter_id": "TCGA-2J-AABV",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1c82e2cb-5046-423c-818b-c6d205dc7f71",
+                "submitter_id": "TCGA-2J-AABV-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "bcd0d8da-f633-4ee0-adf8-17692d14c20b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:35.278093-05:00",
+        "file_id": "483e03f9-4112-4a4f-9b1b-c6330c4d7527",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:00.929501-06:00"
+      },
+      {
+        "id": "44f31ab7-9518-4b29-99fd-9b1247d9d189",
+        "cases": [
+          {
+            "case_id": "16b38977-aea1-4c75-89ec-4fb551f652dd",
+            "submitter_id": "TCGA-HV-AA8X",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "67a81b47-da7a-4bf5-b170-f7ed0551a903",
+                "submitter_id": "TCGA-HV-AA8X-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "23c259f7-c595-41b2-8d82-b740879a3ff6.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:46.001917-05:00",
+        "file_id": "44f31ab7-9518-4b29-99fd-9b1247d9d189",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:00.822858-06:00"
+      },
+      {
+        "id": "c5b35b34-cf5e-4168-8aec-79a7df72da0e",
+        "cases": [
+          {
+            "case_id": "74aa6675-28b7-46dc-9015-f07a07c7b018",
+            "submitter_id": "TCGA-US-A77G",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f3934354-76f8-4506-9943-53d5f9d8dd0c",
+                "submitter_id": "TCGA-US-A77G-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5d3aa278-9953-4280-a365-5fd092511fe0.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:17.778774-05:00",
+        "file_id": "c5b35b34-cf5e-4168-8aec-79a7df72da0e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:00.722631-06:00"
+      },
+      {
+        "id": "3f69c795-598c-491f-b4ae-3812a974daa3",
+        "cases": [
+          {
+            "case_id": "a53c919a-4e08-46f1-af3f-30b16b597c33",
+            "submitter_id": "TCGA-IB-AAUU",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "c4340082-347a-41e6-a135-3f5f82973de2",
+                "submitter_id": "TCGA-IB-AAUU-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "153621f4-18e1-42fd-bcaf-4f256975eda6.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:32.780483-05:00",
+        "file_id": "3f69c795-598c-491f-b4ae-3812a974daa3",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:35.867626-06:00"
+      },
+      {
+        "id": "3982f99d-d2ad-48cb-b3d5-840502c5bf53",
+        "cases": [
+          {
+            "case_id": "58c1c391-5ea3-4432-bb1e-e7e1974954bc",
+            "submitter_id": "TCGA-2J-AABE",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "30c8e41c-2c27-4927-a4e8-c1ac81806d13",
+                "submitter_id": "TCGA-2J-AABE-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7a24bded-097d-416c-952e-91ba909973d5.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:00.728897-05:00",
+        "file_id": "3982f99d-d2ad-48cb-b3d5-840502c5bf53",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:56.354203-06:00"
+      },
+      {
+        "id": "215525e7-fa5f-4495-a84d-17cd952dfcd3",
+        "cases": [
+          {
+            "case_id": "02ef2e1a-5afe-4c00-a3ea-7f4a153f1da4",
+            "submitter_id": "TCGA-HZ-8636",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "95c10f04-fb30-48b0-ae8b-ae90363da60c",
+                "submitter_id": "TCGA-HZ-8636-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d9549977-831c-4e74-a836-a30cee4acf9a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:06.130555-05:00",
+        "file_id": "215525e7-fa5f-4495-a84d-17cd952dfcd3",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:28.383689-06:00"
+      },
+      {
+        "id": "9ee5108b-9bce-407d-ae5a-075322882c00",
+        "cases": [
+          {
+            "case_id": "0fa89fbc-307a-48d5-adce-192556755c22",
+            "submitter_id": "TCGA-HV-AA8V",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "9990dd32-a644-4f71-abda-346872e7e89c",
+                "submitter_id": "TCGA-HV-AA8V-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "565a5e5b-7bcc-4ec6-8dda-53524037cc86.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:20.171595-05:00",
+        "file_id": "9ee5108b-9bce-407d-ae5a-075322882c00",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:44.632283-06:00"
+      },
+      {
+        "id": "9acf5e5d-4397-49bd-9a24-bdda7d6b944e",
+        "cases": [
+          {
+            "case_id": "1b31d2e9-5b05-4fff-88d6-3a95bf8f8d43",
+            "submitter_id": "TCGA-HV-A5A5",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a02bc992-007e-4044-8624-3b7a5326c279",
+                "submitter_id": "TCGA-HV-A5A5-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ab02c8e2-e810-476a-a11c-ca95f7877b29.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:26.600130-05:00",
+        "file_id": "9acf5e5d-4397-49bd-9a24-bdda7d6b944e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:34.228932-06:00"
+      },
+      {
+        "id": "0e94fd0c-0f14-412a-80c3-7cb8b9d01c75",
+        "cases": [
+          {
+            "case_id": "382b279f-87e1-4dbc-a2ca-c1dfde1cf254",
+            "submitter_id": "TCGA-XN-A8T5",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d82393fe-49a4-4b96-aee2-6f75399ca315",
+                "submitter_id": "TCGA-XN-A8T5-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "84c750b5-1e66-45d3-be5c-dd1d21853483.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:58.414233-05:00",
+        "file_id": "0e94fd0c-0f14-412a-80c3-7cb8b9d01c75",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:19.451732-06:00"
+      },
+      {
+        "id": "8044f5b4-6b45-408c-b0fe-059e773e401e",
+        "cases": [
+          {
+            "case_id": "2be42cc2-9b97-4821-afc2-d1e42eb3932d",
+            "submitter_id": "TCGA-HZ-7926",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "4f54b5f4-61f6-4102-9f6d-0f5e3dfe090c",
+                "submitter_id": "TCGA-HZ-7926-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6e7fb389-a285-4c22-8d7a-a1fc10190c53.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:15.357778-05:00",
+        "file_id": "8044f5b4-6b45-408c-b0fe-059e773e401e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:32.725872-06:00"
+      },
+      {
+        "id": "1500117c-5da7-43ba-8453-64d20170eb86",
+        "cases": [
+          {
+            "case_id": "10f0d40b-c4c4-441b-9cfb-bef5e44aa91e",
+            "submitter_id": "TCGA-3A-A9IH",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1ed78ad3-3960-4674-806f-667f997901d3",
+                "submitter_id": "TCGA-3A-A9IH-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d789b349-f74b-4910-b797-625b2e1cc22a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:00.990892-05:00",
+        "file_id": "1500117c-5da7-43ba-8453-64d20170eb86",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:21.656391-06:00"
+      },
+      {
+        "id": "3af1813a-c75f-45d8-8289-d19e6979f919",
+        "cases": [
+          {
+            "case_id": "2e8f90f4-aed3-43b0-985c-dfdc2581f24f",
+            "submitter_id": "TCGA-2J-AAB8",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "5f27b568-aa1b-4720-a176-f4a8c3fe7e40",
+                "submitter_id": "TCGA-2J-AAB8-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d7e25a74-df57-410a-852a-a9873910ec5e.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:49.585809-05:00",
+        "file_id": "3af1813a-c75f-45d8-8289-d19e6979f919",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:24.404210-06:00"
+      },
+      {
+        "id": "9043ee18-45f4-483e-91c2-b8dd175ac703",
+        "cases": [
+          {
+            "case_id": "21814c02-6aa5-4b98-8fd8-41ca0b04ccd2",
+            "submitter_id": "TCGA-HZ-8005",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6b58512c-bba6-4871-a98a-50078b88dcdb",
+                "submitter_id": "TCGA-HZ-8005-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "940696cf-f20c-4aa9-ad5c-479141132692.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:34.109984-05:00",
+        "file_id": "9043ee18-45f4-483e-91c2-b8dd175ac703",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:53.617706-06:00"
+      },
+      {
+        "id": "1e3a2f00-8824-47ca-94ac-cff42deb90f3",
+        "cases": [
+          {
+            "case_id": "4387a2c2-8007-4735-a48c-34a2b476018e",
+            "submitter_id": "TCGA-IB-8126",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "45d9fddd-e70d-469b-bb04-f7c2492fe495",
+                "submitter_id": "TCGA-IB-8126-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f98219ee-5936-4ed2-8d37-373ad6592e1f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:39.404586-05:00",
+        "file_id": "1e3a2f00-8824-47ca-94ac-cff42deb90f3",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:05.746919-06:00"
+      },
+      {
+        "id": "5dd598ff-58cf-4553-af71-2e0d80a04c08",
+        "cases": [
+          {
+            "case_id": "5750a6ed-2516-456d-97d4-2f6486845ed8",
+            "submitter_id": "TCGA-LB-A7SX",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "99272586-8546-49cd-971e-431622f1be4a",
+                "submitter_id": "TCGA-LB-A7SX-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "fbb8955a-12cc-4e48-b4ab-f1c612d56b8a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:02.103259-05:00",
+        "file_id": "5dd598ff-58cf-4553-af71-2e0d80a04c08",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:10.626479-06:00"
+      },
+      {
+        "id": "2493df6e-8c76-4557-a7af-6d1264e9dac4",
+        "cases": [
+          {
+            "case_id": "69285f58-9b70-4262-acc0-8cf3d47540c3",
+            "submitter_id": "TCGA-IB-AAUS",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f1c49186-207b-460e-b4ff-769a7468d172",
+                "submitter_id": "TCGA-IB-AAUS-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "13653fbc-feec-45d3-8b36-badbf813e979.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:20.600895-05:00",
+        "file_id": "2493df6e-8c76-4557-a7af-6d1264e9dac4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:32.754476-06:00"
+      },
+      {
+        "id": "a3b1025f-76a9-4088-a465-0bd3c8ab1193",
+        "cases": [
+          {
+            "case_id": "4a60e87e-6bc1-4ae0-9ccb-4cdc3e99c608",
+            "submitter_id": "TCGA-OE-A75W",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "22f07eee-f10e-401d-b311-42a62d1a25ad",
+                "submitter_id": "TCGA-OE-A75W-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d5d84944-9118-4024-916e-130345b1d88a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:31.774883-05:00",
+        "file_id": "a3b1025f-76a9-4088-a465-0bd3c8ab1193",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:19.927649-06:00"
+      },
+      {
+        "id": "d38c7ed8-f049-44da-bcaa-6dfed9e87562",
+        "cases": [
+          {
+            "case_id": "5c51fbfe-153c-4cd2-97bd-e444daa0b20f",
+            "submitter_id": "TCGA-HV-A7OP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "4a004132-335f-4299-88cd-95f473523ed3",
+                "submitter_id": "TCGA-HV-A7OP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "4a6786b8-5fad-44ae-a9bf-ca732930f167.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:33.902974-05:00",
+        "file_id": "d38c7ed8-f049-44da-bcaa-6dfed9e87562",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:36.218764-06:00"
+      },
+      {
+        "id": "eb40b06c-68b1-4298-9d1f-4de1e28f07dd",
+        "cases": [
+          {
+            "case_id": "886d6116-d496-444f-9b7b-7449dad31055",
+            "submitter_id": "TCGA-2J-AABF",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "22b8698c-d821-4d97-b4c8-23607b4cabc9",
+                "submitter_id": "TCGA-2J-AABF-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7e35ad10-6c63-4743-b43d-d921159faddd.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:58.308143-05:00",
+        "file_id": "eb40b06c-68b1-4298-9d1f-4de1e28f07dd",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:02.889777-06:00"
+      },
+      {
+        "id": "a5723a1d-b3d3-4c19-9c61-ed53a8334b3c",
+        "cases": [
+          {
+            "case_id": "94cd2278-7c76-423b-a44b-564776211a07",
+            "submitter_id": "TCGA-HZ-A9TJ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "599da307-d973-4ad7-b7ce-daa3ba62fe77",
+                "submitter_id": "TCGA-HZ-A9TJ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "81ddd43c-50f2-4622-9bd9-56bee811f71f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:45.797715-05:00",
+        "file_id": "a5723a1d-b3d3-4c19-9c61-ed53a8334b3c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:08.733846-06:00"
+      },
+      {
+        "id": "7cb069c7-4347-4d73-aad1-dee5cd15565b",
+        "cases": [
+          {
+            "case_id": "a28cfa95-5a99-40f3-928e-7a94f2492d2c",
+            "submitter_id": "TCGA-2L-AAQI",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7b9f815b-6dd3-49c4-aded-717c366c8105",
+                "submitter_id": "TCGA-2L-AAQI-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "827973c5-466c-4098-8f33-e92a3b52160c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:40.028678-05:00",
+        "file_id": "7cb069c7-4347-4d73-aad1-dee5cd15565b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:11.484016-06:00"
+      },
+      {
+        "id": "68cae6f7-73dd-481d-aac9-dc023e6c12d6",
+        "cases": [
+          {
+            "case_id": "b46b5a4c-59fc-4769-b05a-d15f9aaa753a",
+            "submitter_id": "TCGA-XD-AAUH",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f48b603f-9a37-4a3b-95a3-3fb7cc0e5510",
+                "submitter_id": "TCGA-XD-AAUH-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "13219a6d-7b1f-47c1-be99-30a1e13fcc1d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:05.954204-05:00",
+        "file_id": "68cae6f7-73dd-481d-aac9-dc023e6c12d6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:31.373352-06:00"
+      },
+      {
+        "id": "9bfe5f73-1481-41e3-b8fc-d57b057bae31",
+        "cases": [
+          {
+            "case_id": "fe699c36-82ef-45dd-b636-8c18a9ef6c76",
+            "submitter_id": "TCGA-IB-7887",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "fdb06325-7545-495a-84c8-dfc5c3c209fb",
+                "submitter_id": "TCGA-IB-7887-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "086667b3-bd50-4f84-a9e1-fbd79ac1a21b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:17.787351-05:00",
+        "file_id": "9bfe5f73-1481-41e3-b8fc-d57b057bae31",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:21.436206-06:00"
+      },
+      {
+        "id": "ce1b2f4c-4a19-4529-9a05-4212ac140ebb",
+        "cases": [
+          {
+            "case_id": "f2313562-c894-486d-a9b6-ed362e12a32a",
+            "submitter_id": "TCGA-FB-AAPZ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b537c629-417d-48d6-a847-df3793473de9",
+                "submitter_id": "TCGA-FB-AAPZ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7d5d4419-5c0d-4f23-9463-04df885a4c52.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:39.938989-05:00",
+        "file_id": "ce1b2f4c-4a19-4529-9a05-4212ac140ebb",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:58.020292-06:00"
+      },
+      {
+        "id": "508e7f55-26a6-4281-88c9-5e35d59f56c2",
+        "cases": [
+          {
+            "case_id": "ff8dac97-42ff-4f48-81c4-50315ad8de58",
+            "submitter_id": "TCGA-FB-AAQ1",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b9ce8e4c-9d4d-4caa-9c73-3647ebd1f585",
+                "submitter_id": "TCGA-FB-AAQ1-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "47b10cc3-496d-46c7-a9ef-392acb2f58d4.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:37.612319-05:00",
+        "file_id": "508e7f55-26a6-4281-88c9-5e35d59f56c2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:34.701161-06:00"
+      },
+      {
+        "id": "e916054b-02b5-4f02-8c21-940c14683ced",
+        "cases": [
+          {
+            "case_id": "f5558dc7-5bef-426f-a6bf-b704fd5dbda0",
+            "submitter_id": "TCGA-FB-AAQ2",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a180ab4a-9754-4e89-a00b-e0a0243d85b8",
+                "submitter_id": "TCGA-FB-AAQ2-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5b8c5785-522d-4bf5-a923-b687689ed076.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:23.905460-05:00",
+        "file_id": "e916054b-02b5-4f02-8c21-940c14683ced",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:58.414449-06:00"
+      },
+      {
+        "id": "245632c2-f70b-4b31-b4b4-81ff6a860bc4",
+        "cases": [
+          {
+            "case_id": "98f1d0eb-0977-4f53-a3b1-e6875a34c27b",
+            "submitter_id": "TCGA-HZ-A8P0",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e15258dc-ef34-407b-b23d-f5b242a95d6d",
+                "submitter_id": "TCGA-HZ-A8P0-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "90fe6068-0176-4cf8-9fd0-a5eb8d2cc090.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:52.178746-05:00",
+        "file_id": "245632c2-f70b-4b31-b4b4-81ff6a860bc4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:43.604120-06:00"
+      },
+      {
+        "id": "952b8bf3-3da4-4228-9541-004e17709cb1",
+        "cases": [
+          {
+            "case_id": "8d9bd437-8b4b-4da5-87ba-6b5790f05022",
+            "submitter_id": "TCGA-F2-6879",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d43f0112-fe59-4842-9fda-1189e5fb7248",
+                "submitter_id": "TCGA-F2-6879-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "06a1d5c5-ecc0-426b-aba8-d5e0ca289c8f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:15.299673-05:00",
+        "file_id": "952b8bf3-3da4-4228-9541-004e17709cb1",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:19.734217-06:00"
+      },
+      {
+        "id": "ec2ef60e-c050-419b-8652-f0dc7ef6b9d4",
+        "cases": [
+          {
+            "case_id": "9924e309-5c47-42fe-b937-547f2b3d6842",
+            "submitter_id": "TCGA-3A-A9I5",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d005da54-bdfc-433d-a661-b71b6c19b91c",
+                "submitter_id": "TCGA-3A-A9I5-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "78a82c9b-39a9-4f8f-b991-272e7e81649f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:25.450811-05:00",
+        "file_id": "ec2ef60e-c050-419b-8652-f0dc7ef6b9d4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:48.549810-06:00"
+      },
+      {
+        "id": "25179d11-adde-4105-a3cb-ecfa7ea16b33",
+        "cases": [
+          {
+            "case_id": "9d449aa3-b740-4d5a-9aea-880b6f84cff4",
+            "submitter_id": "TCGA-3E-AAAZ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "34cd4dff-b028-4322-8148-c206ca4024c0",
+                "submitter_id": "TCGA-3E-AAAZ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6923afa8-522b-4f3d-9614-a7f789f9e379.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:53.451089-05:00",
+        "file_id": "25179d11-adde-4105-a3cb-ecfa7ea16b33",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:28.716602-06:00"
+      },
+      {
+        "id": "a1a0185a-0e2e-4988-843f-da28c341841a",
+        "cases": [
+          {
+            "case_id": "bd73ed94-5f4f-4eb3-8b9b-391af4422d0e",
+            "submitter_id": "TCGA-IB-A5SP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e116a129-7ef0-4e24-97c1-3e817b02d964",
+                "submitter_id": "TCGA-IB-A5SP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "af27f011-fff5-45c6-a7a4-523fee071cb5.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:56.905948-05:00",
+        "file_id": "a1a0185a-0e2e-4988-843f-da28c341841a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:47.401178-06:00"
+      },
+      {
+        "id": "103eafcd-aa33-4f6a-b3c4-a3002c951254",
+        "cases": [
+          {
+            "case_id": "959e1f13-360e-4e12-add5-bf9a376990d2",
+            "submitter_id": "TCGA-3A-A9IX",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "77848ff8-48bc-434d-a393-b295a3bf71f5",
+                "submitter_id": "TCGA-3A-A9IX-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "325070af-c5d9-485c-90d7-e194cbd7c7cb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:11.979060-05:00",
+        "file_id": "103eafcd-aa33-4f6a-b3c4-a3002c951254",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:17.344012-06:00"
+      },
+      {
+        "id": "eea4fe20-4aa1-4cbc-8246-29661fb2ff71",
+        "cases": [
+          {
+            "case_id": "a2fd0991-cfbd-4162-8ca9-2ed096f54a14",
+            "submitter_id": "TCGA-HZ-8317",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3e960dfc-9649-441d-a196-df73d07dfa4c",
+                "submitter_id": "TCGA-HZ-8317-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "b3d71674-f3c8-4841-8bc6-02621602181d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:38.722076-05:00",
+        "file_id": "eea4fe20-4aa1-4cbc-8246-29661fb2ff71",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:56.436065-06:00"
+      },
+      {
+        "id": "8fafe83c-9f15-40c7-ae4e-f1955b8d17ee",
+        "cases": [
+          {
+            "case_id": "b2e29f26-29af-4e2d-84dd-c513b4a07c70",
+            "submitter_id": "TCGA-FB-A4P5",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "fb8b9904-e06a-4655-98f6-04b6eca74a8a",
+                "submitter_id": "TCGA-FB-A4P5-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "8ccaefb1-3db4-464e-8559-d5bb0e0933eb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:12.457012-05:00",
+        "file_id": "8fafe83c-9f15-40c7-ae4e-f1955b8d17ee",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:37.854199-06:00"
+      },
+      {
+        "id": "e7ea70ac-6345-4b16-9832-04e0800633c6",
+        "cases": [
+          {
+            "case_id": "f96ab3fe-bb11-4585-a35e-52d400e55ab7",
+            "submitter_id": "TCGA-2L-AAQJ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "46b276c0-51c0-4f38-9856-09db792692ad",
+                "submitter_id": "TCGA-2L-AAQJ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "b9000c0a-1e86-4c10-abee-64156299e753.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:57.067600-05:00",
+        "file_id": "e7ea70ac-6345-4b16-9832-04e0800633c6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:58.716281-06:00"
+      },
+      {
+        "id": "1a96328e-49a7-4655-abcd-d463138f457f",
+        "cases": [
+          {
+            "case_id": "ecdd0e44-0add-4a08-a3f8-ab2f51df7afd",
+            "submitter_id": "TCGA-FB-AAPQ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "dbad19a2-7a1c-4d24-8805-c27c8eb6d859",
+                "submitter_id": "TCGA-FB-AAPQ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "033fbcc1-7984-4946-ba49-cd58bb641b0b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:37.007212-05:00",
+        "file_id": "1a96328e-49a7-4655-abcd-d463138f457f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:17.887762-06:00"
+      },
+      {
+        "id": "241606d3-f359-4df7-ba9e-1c2a86c17d10",
+        "cases": [
+          {
+            "case_id": "3a3a8fe1-e35c-45d0-aa0b-4fefa9ee9183",
+            "submitter_id": "TCGA-US-A77J",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1f0c7758-2c2a-4c39-bb82-ec1414273c41",
+                "submitter_id": "TCGA-US-A77J-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "e55e1abe-7f0d-4cb7-a28a-728443f0423d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:30.642956-05:00",
+        "file_id": "241606d3-f359-4df7-ba9e-1c2a86c17d10",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:38.378967-06:00"
+      },
+      {
+        "id": "9e459810-a982-4f7d-a6b3-ab1ac35bea62",
+        "cases": [
+          {
+            "case_id": "565ee830-5236-4414-aeaa-48ea7eb3b753",
+            "submitter_id": "TCGA-HZ-7923",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6d3105fb-405e-45bc-8d70-e43199f109d2",
+                "submitter_id": "TCGA-HZ-7923-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "af54f762-0442-45c9-ba86-840437323ba6.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:40.511634-05:00",
+        "file_id": "9e459810-a982-4f7d-a6b3-ab1ac35bea62",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:50.095973-06:00"
+      },
+      {
+        "id": "bed2a207-15f0-4837-9ba0-6638051df824",
+        "cases": [
+          {
+            "case_id": "65e5bf5f-f22a-4ec2-8839-aeda37212b98",
+            "submitter_id": "TCGA-IB-7654",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "53c7c6f8-3d1c-43db-b49f-c88ed37c741f",
+                "submitter_id": "TCGA-IB-7654-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a5f518f1-22ba-4a2c-8664-d37aba0bf679.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:52.039166-05:00",
+        "file_id": "bed2a207-15f0-4837-9ba0-6638051df824",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:22.602731-06:00"
+      },
+      {
+        "id": "6230d096-38d0-4945-ac66-3811160f11f6",
+        "cases": [
+          {
+            "case_id": "1fe937f7-b4e5-4cf6-be9b-215a012533c6",
+            "submitter_id": "TCGA-HZ-7920",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d77fff54-00dc-4bae-87be-581218089c09",
+                "submitter_id": "TCGA-HZ-7920-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1761b0c4-9fa5-4660-a9a4-0cb973e96f8d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:29.394234-05:00",
+        "file_id": "6230d096-38d0-4945-ac66-3811160f11f6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:45.351753-06:00"
+      },
+      {
+        "id": "c1613f9f-e93a-426c-a750-54895e588067",
+        "cases": [
+          {
+            "case_id": "2e0701e1-e16f-457f-b939-7b1128f4a58b",
+            "submitter_id": "TCGA-HV-A7OL",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "34154b8b-1867-432c-9eb4-9f55c76caa40",
+                "submitter_id": "TCGA-HV-A7OL-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "e9ff80cc-fa41-4b9c-ae1d-c9b58f005e6f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:37.961279-05:00",
+        "file_id": "c1613f9f-e93a-426c-a750-54895e588067",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:45.810964-06:00"
+      },
+      {
+        "id": "f54820a6-a987-4c81-a888-ac9ca590d4a7",
+        "cases": [
+          {
+            "case_id": "0a3c8161-4186-4c95-8288-9928d6db0355",
+            "submitter_id": "TCGA-IB-AAUP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7ed25c2c-ec53-4ca0-9437-15a6b8fb764f",
+                "submitter_id": "TCGA-IB-AAUP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f658fea2-ce6f-446d-8c62-8649e7d25749.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:26.633764-05:00",
+        "file_id": "f54820a6-a987-4c81-a888-ac9ca590d4a7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:59.821732-06:00"
+      },
+      {
+        "id": "1bccd28f-ef99-486b-b191-e07c17185d57",
+        "cases": [
+          {
+            "case_id": "2048d0f9-ed9f-46df-bcd4-3dfd9137670f",
+            "submitter_id": "TCGA-FB-AAPS",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "0dd80160-fc7e-4162-b744-32474bb7223e",
+                "submitter_id": "TCGA-FB-AAPS-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "b296880d-cf96-4783-9b5c-849bf412ca44.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:49.527980-05:00",
+        "file_id": "1bccd28f-ef99-486b-b191-e07c17185d57",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:55.045038-06:00"
+      },
+      {
+        "id": "1985d153-e7f9-44e7-99f9-d71b5d4d565e",
+        "cases": [
+          {
+            "case_id": "869e61d6-fbbf-4ca2-be1a-57b82a03c7a1",
+            "submitter_id": "TCGA-IB-AAUO",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "54f91e93-7222-49b4-a70b-d9456fdb753b",
+                "submitter_id": "TCGA-IB-AAUO-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2b532c49-f23c-4515-a36c-8f6f282797de.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:46.803730-05:00",
+        "file_id": "1985d153-e7f9-44e7-99f9-d71b5d4d565e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:10.120200-06:00"
+      },
+      {
+        "id": "d4b54ce7-b3ed-4a31-8bf7-867efc78e980",
+        "cases": [
+          {
+            "case_id": "a4569ce7-dde7-4660-a24c-409d294b2b8c",
+            "submitter_id": "TCGA-2J-AABP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "be6085d3-e73b-4e26-b7d3-f768072592bb",
+                "submitter_id": "TCGA-2J-AABP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "96f79902-9710-4a2c-9b26-92cc9430d441.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:41.138928-05:00",
+        "file_id": "d4b54ce7-b3ed-4a31-8bf7-867efc78e980",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:04.114804-06:00"
+      },
+      {
+        "id": "913f4a45-995e-4fc3-b093-b5d80c060898",
+        "cases": [
+          {
+            "case_id": "13cf4e4c-8d5f-4854-a350-428fdf1ff340",
+            "submitter_id": "TCGA-3A-A9IO",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e617c3a5-4b06-44ce-ab2c-de5a05ba5647",
+                "submitter_id": "TCGA-3A-A9IO-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7e1f6d87-d16d-448d-a359-bca0058acf84.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:22.693744-05:00",
+        "file_id": "913f4a45-995e-4fc3-b093-b5d80c060898",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:00.060739-06:00"
+      },
+      {
+        "id": "26842740-dfe2-4b42-b625-1f5719500851",
+        "cases": [
+          {
+            "case_id": "a9c0f3a1-01eb-4f01-b58a-708b2960e685",
+            "submitter_id": "TCGA-S4-A8RO",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "944e1c7d-5b7c-4e4c-9fd1-108c937580a0",
+                "submitter_id": "TCGA-S4-A8RO-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "8d66e030-d1a9-4948-92e7-4cdbac247c2d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:43.123417-05:00",
+        "file_id": "26842740-dfe2-4b42-b625-1f5719500851",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:39.214287-06:00"
+      },
+      {
+        "id": "574e18d7-010d-48e6-ba40-db3aa3540e34",
+        "cases": [
+          {
+            "case_id": "e3a19e63-bae5-498b-9687-41194aa5728d",
+            "submitter_id": "TCGA-2J-AABA",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "69deb72b-6c40-4659-b1fc-af063bab7823",
+                "submitter_id": "TCGA-2J-AABA-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2bce0622-0b73-468c-98b2-79483fe9688d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:59.763421-05:00",
+        "file_id": "574e18d7-010d-48e6-ba40-db3aa3540e34",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:13.298619-06:00"
+      },
+      {
+        "id": "786ce56f-1b04-4941-a9ea-5722715d42f2",
+        "cases": [
+          {
+            "case_id": "afe89625-b355-454d-8c0b-b4161edd69f8",
+            "submitter_id": "TCGA-IB-AAUQ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "847869f0-b61c-4a87-9eb2-6c3d2f19391f",
+                "submitter_id": "TCGA-IB-AAUQ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "78b8fd46-5fe7-4d59-8619-ed4b4a8ff5d2.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:11.780217-05:00",
+        "file_id": "786ce56f-1b04-4941-a9ea-5722715d42f2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:51.450231-06:00"
+      },
+      {
+        "id": "f624a728-7487-4621-8453-ee758398b506",
+        "cases": [
+          {
+            "case_id": "2faea98a-edf7-4e92-bfb7-f91a36259872",
+            "submitter_id": "TCGA-HZ-7919",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "8b70f409-f05a-4518-8bb1-8e8a07aab572",
+                "submitter_id": "TCGA-HZ-7919-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6dfb777e-74f0-419c-9af3-ec7bbb9047c5.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:40.436958-05:00",
+        "file_id": "f624a728-7487-4621-8453-ee758398b506",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:30.727261-06:00"
+      },
+      {
+        "id": "c4b1a406-6c19-4199-8cfc-076f6d785d3f",
+        "cases": [
+          {
+            "case_id": "178e68c0-4cb8-4042-a942-5a159ec1e12b",
+            "submitter_id": "TCGA-IB-7652",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "44402829-f01a-49bb-bcd0-fd5455e7d50b",
+                "submitter_id": "TCGA-IB-7652-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "58947644-3de6-4d64-bdb3-40b853becf9d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:05.481623-05:00",
+        "file_id": "c4b1a406-6c19-4199-8cfc-076f6d785d3f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:49.573842-06:00"
+      },
+      {
+        "id": "f8ed2164-dbe4-4eb7-a7c6-c123e911e50a",
+        "cases": [
+          {
+            "case_id": "396ff766-a383-4f42-bce3-f2f32b7f1151",
+            "submitter_id": "TCGA-3A-A9I9",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "890188e5-9234-4b5d-8bca-68d8059c8645",
+                "submitter_id": "TCGA-3A-A9I9-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "67be661f-1fa8-4d83-aca3-1d7869aa1ac2.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:14.867335-05:00",
+        "file_id": "f8ed2164-dbe4-4eb7-a7c6-c123e911e50a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:20.845207-06:00"
+      },
+      {
+        "id": "580badbf-e323-43fc-b783-e89b52302d3b",
+        "cases": [
+          {
+            "case_id": "20094e3e-cee3-41dd-8553-1fc393117786",
+            "submitter_id": "TCGA-F2-A44G",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "04eb5d4f-8fb2-465e-91e8-29c881679e34",
+                "submitter_id": "TCGA-F2-A44G-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ca2a821b-4283-4488-916d-273551088813.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:50.932147-05:00",
+        "file_id": "580badbf-e323-43fc-b783-e89b52302d3b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:11.278832-06:00"
+      },
+      {
+        "id": "688a1e70-9164-4ec3-abd6-6cb366d87f72",
+        "cases": [
+          {
+            "case_id": "3f9cc59e-9f7d-40d1-9365-28b40dff3c59",
+            "submitter_id": "TCGA-2J-AABT",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "56c4c210-8d50-407e-a094-687295dffb84",
+                "submitter_id": "TCGA-2J-AABT-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "893cdf5a-1670-44b2-b6b9-420f9d8f8baa.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:44.308786-05:00",
+        "file_id": "688a1e70-9164-4ec3-abd6-6cb366d87f72",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:32.472636-06:00"
+      },
+      {
+        "id": "50db8a7b-1d89-4c9a-a285-5de3c2bae5cf",
+        "cases": [
+          {
+            "case_id": "31c23e65-1f18-4f59-8a54-31febedef8a2",
+            "submitter_id": "TCGA-LB-A9Q5",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "383aaf87-c731-478c-bf74-eb6261a237f8",
+                "submitter_id": "TCGA-LB-A9Q5-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "bf1eeff9-7b55-4609-ab8a-003ce2727faa.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:24.397023-05:00",
+        "file_id": "50db8a7b-1d89-4c9a-a285-5de3c2bae5cf",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:03.431743-06:00"
+      },
+      {
+        "id": "6bda9845-af73-46b2-88fc-c02aadc99ee9",
+        "cases": [
+          {
+            "case_id": "6788e0e5-b67f-4fe6-aabb-6d0430ae2d06",
+            "submitter_id": "TCGA-IB-AAUR",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b154365f-23f6-4a44-8e8f-8672db572133",
+                "submitter_id": "TCGA-IB-AAUR-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f98d97db-fc5e-47e5-adce-3890392eea75.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:19.461828-05:00",
+        "file_id": "6bda9845-af73-46b2-88fc-c02aadc99ee9",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:06.892753-06:00"
+      },
+      {
+        "id": "2542cead-e252-4c01-bd34-8cf170d49f4f",
+        "cases": [
+          {
+            "case_id": "55cee1dd-15a0-4717-a281-63e08e2cfdf9",
+            "submitter_id": "TCGA-HZ-8001",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "c7324845-a124-4db8-8236-d8caccb7fb39",
+                "submitter_id": "TCGA-HZ-8001-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "0b01cc4f-cc4d-4971-8956-1fe5325555df.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:33.122647-05:00",
+        "file_id": "2542cead-e252-4c01-bd34-8cf170d49f4f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:24.547692-06:00"
+      },
+      {
+        "id": "89ba298b-7453-494f-a80f-3cb8b8bbfdd0",
+        "cases": [
+          {
+            "case_id": "47cb93bc-8f6b-4b2a-804c-bb4fc78df9e1",
+            "submitter_id": "TCGA-HZ-A49G",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "2b44f6c8-ec16-46b7-a810-622cb0dec3c5",
+                "submitter_id": "TCGA-HZ-A49G-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9328ab3a-5598-4d1d-8a48-d194b336c84e.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:30.330204-05:00",
+        "file_id": "89ba298b-7453-494f-a80f-3cb8b8bbfdd0",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:48.495593-06:00"
+      },
+      {
+        "id": "c0da3ec8-9575-4b2b-b6ef-e0b2c7670e91",
+        "cases": [
+          {
+            "case_id": "68c0bc1b-3195-4ed6-8345-3ca53dfc54fc",
+            "submitter_id": "TCGA-HZ-8003",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "fe43aa5c-8151-4565-950d-e5a3dfa328d3",
+                "submitter_id": "TCGA-HZ-8003-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ab9fdb67-d8e1-4725-8728-8532b8bdbda9.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:04.291163-05:00",
+        "file_id": "c0da3ec8-9575-4b2b-b6ef-e0b2c7670e91",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:37.266315-06:00"
+      },
+      {
+        "id": "588c9433-14c3-461e-8c00-013abd90eb1c",
+        "cases": [
+          {
+            "case_id": "88eaebfc-d740-4cdc-88f5-df5e08633e2d",
+            "submitter_id": "TCGA-IB-AAUT",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "401b7bee-8bc5-4909-936b-afa27fdfa489",
+                "submitter_id": "TCGA-IB-AAUT-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2caf9104-4f92-4389-bf2a-c27ffe506f59.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:39.490702-05:00",
+        "file_id": "588c9433-14c3-461e-8c00-013abd90eb1c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:15.163473-06:00"
+      },
+      {
+        "id": "b68f005a-2bca-4dee-a767-01113e5e7a5a",
+        "cases": [
+          {
+            "case_id": "6f777943-ffcb-46d9-872d-514559dee00d",
+            "submitter_id": "TCGA-HZ-7922",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "81aaadaa-4427-4fcd-901d-31e5e52e344d",
+                "submitter_id": "TCGA-HZ-7922-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5f076102-f8ce-46c3-8dcd-0cbbb27bea1e.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:36.763748-05:00",
+        "file_id": "b68f005a-2bca-4dee-a767-01113e5e7a5a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:04.717238-06:00"
+      },
+      {
+        "id": "7e1b5fe0-34c4-4144-9964-0f16e904dad0",
+        "cases": [
+          {
+            "case_id": "a308a5ee-8ea1-47ee-823d-14736d74a925",
+            "submitter_id": "TCGA-3A-A9J0",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "80020317-7212-4a7b-a30a-9875d23e1a10",
+                "submitter_id": "TCGA-3A-A9J0-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ea6626d3-7799-4481-b545-f78988ed5ece.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:04.148677-05:00",
+        "file_id": "7e1b5fe0-34c4-4144-9964-0f16e904dad0",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:47.682146-06:00"
+      },
+      {
+        "id": "df5a3f1d-5206-4318-a62b-39f221a4cd08",
+        "cases": [
+          {
+            "case_id": "b84b58c7-95b8-4162-8e61-414f8fe422c6",
+            "submitter_id": "TCGA-YB-A89D",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6385cf7e-9b2b-4bb2-a717-d889758e8943",
+                "submitter_id": "TCGA-YB-A89D-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "c9b38300-fa2c-435e-a529-1fb457355e64.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:35.034894-05:00",
+        "file_id": "df5a3f1d-5206-4318-a62b-39f221a4cd08",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:09.139607-06:00"
+      },
+      {
+        "id": "c0ed500e-e4cb-424e-bcd2-ca7c62f0f014",
+        "cases": [
+          {
+            "case_id": "ec9ac713-08e9-4559-b606-5f58d2c4df50",
+            "submitter_id": "TCGA-IB-7649",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "814b2dbd-07f3-4063-a7df-f80511853045",
+                "submitter_id": "TCGA-IB-7649-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9cc01b29-95b6-4cde-a821-e9e93c582605.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:30.366570-05:00",
+        "file_id": "c0ed500e-e4cb-424e-bcd2-ca7c62f0f014",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:06.280301-06:00"
+      },
+      {
+        "id": "789ebf62-b31b-4ee1-86d5-b33b07d8bb33",
+        "cases": [
+          {
+            "case_id": "ce9e0431-19a1-4ea9-85b0-44a9e9792e03",
+            "submitter_id": "TCGA-HZ-A77Q",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "bfa00b71-57ec-4cfe-8627-86fe0e66492e",
+                "submitter_id": "TCGA-HZ-A77Q-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "21a0337b-1967-4c99-986c-71786f20bc78.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:50.728938-05:00",
+        "file_id": "789ebf62-b31b-4ee1-86d5-b33b07d8bb33",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:56.170856-06:00"
+      },
+      {
+        "id": "1a5d463c-ace6-4ab6-83f4-407cb2d97db7",
+        "cases": [
+          {
+            "case_id": "fe01a390-f45e-4352-a253-af8ef7ee9628",
+            "submitter_id": "TCGA-HZ-A77O",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3169e534-2fbb-4335-9a83-acab9071a573",
+                "submitter_id": "TCGA-HZ-A77O-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2073f6f6-2f07-4666-af7b-06d06de80540.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:15.613344-05:00",
+        "file_id": "1a5d463c-ace6-4ab6-83f4-407cb2d97db7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:54.502337-06:00"
+      },
+      {
+        "id": "fcebcf5a-84d3-4a49-bf88-2ad17bbebbd6",
+        "cases": [
+          {
+            "case_id": "ede2e8a7-465e-4725-880d-519899aba0c0",
+            "submitter_id": "TCGA-YY-A8LH",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6515607b-b6d6-42b3-a0f1-b6fc896a0929",
+                "submitter_id": "TCGA-YY-A8LH-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ae2354f3-29e3-4ca1-9f28-2057b176764f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:48.687972-05:00",
+        "file_id": "fcebcf5a-84d3-4a49-bf88-2ad17bbebbd6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:45.786221-06:00"
+      },
+      {
+        "id": "fc97efd2-4c4e-42c1-ad65-256d40b6d3c7",
+        "cases": [
+          {
+            "case_id": "1c2341f3-558b-4555-90ff-c7a23ef85c0b",
+            "submitter_id": "TCGA-3A-A9IV",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "34632ff6-f53f-4204-b38a-04975694bcae",
+                "submitter_id": "TCGA-3A-A9IV-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "565a849f-f89f-4e3e-9321-71ff329610b3.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:41.625922-05:00",
+        "file_id": "fc97efd2-4c4e-42c1-ad65-256d40b6d3c7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:45.950905-06:00"
+      },
+      {
+        "id": "9b95c108-d893-4023-abd1-3f714f08b2a4",
+        "cases": [
+          {
+            "case_id": "5898434d-cfa3-4515-a0c0-810d7e515120",
+            "submitter_id": "TCGA-3A-A9IR",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "77a1e6a7-df34-4a3b-bb32-af197c26071f",
+                "submitter_id": "TCGA-3A-A9IR-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "4744f23f-1d20-4932-b811-124f3656b379.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:52.667040-05:00",
+        "file_id": "9b95c108-d893-4023-abd1-3f714f08b2a4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:31.311916-06:00"
+      },
+      {
+        "id": "1b31e73d-5229-4a65-b629-1371f8aa8b62",
+        "cases": [
+          {
+            "case_id": "5f9a5aba-8db8-45cc-8784-c5058445bd6f",
+            "submitter_id": "TCGA-HZ-8638",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d3e04f38-f5a6-42bc-a588-bdb1bff74da2",
+                "submitter_id": "TCGA-HZ-8638-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ff804715-fce5-49ca-87fa-fc5709227890.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:28.034392-05:00",
+        "file_id": "1b31e73d-5229-4a65-b629-1371f8aa8b62",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:16.354891-06:00"
+      },
+      {
+        "id": "7ed77068-1209-4a88-8896-201a5fca9cfa",
+        "cases": [
+          {
+            "case_id": "3e09fd70-6464-42f6-96a6-b51d7c298fc5",
+            "submitter_id": "TCGA-H8-A6C1",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3ec700d8-4da1-4149-9c31-4d70702c5fd5",
+                "submitter_id": "TCGA-H8-A6C1-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7753edeb-4aba-4ddc-9032-569941d285dd.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:26.301623-05:00",
+        "file_id": "7ed77068-1209-4a88-8896-201a5fca9cfa",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:44.281211-06:00"
+      },
+      {
+        "id": "2b89b4e4-a150-44cb-b533-4d55272841d6",
+        "cases": [
+          {
+            "case_id": "1422bc35-4597-4e76-aa75-8e79613e67d5",
+            "submitter_id": "TCGA-FB-AAPP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "279140b3-a1ac-4fed-a1aa-cba460b34ab5",
+                "submitter_id": "TCGA-FB-AAPP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "13dbd84c-b0da-45bc-8c6a-8e215672b157.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:23.066706-05:00",
+        "file_id": "2b89b4e4-a150-44cb-b533-4d55272841d6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:34.333661-06:00"
+      },
+      {
+        "id": "1b055aea-842c-4e66-8c0b-0fdbf707809b",
+        "cases": [
+          {
+            "case_id": "24a40289-96fd-4c1a-a953-45a46a0a0e9d",
+            "submitter_id": "TCGA-3A-A9IL",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "404aaa27-cd9a-4d9b-8579-f435bf3f1fa6",
+                "submitter_id": "TCGA-3A-A9IL-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "da4a86db-baed-4b6f-af38-1d57c92d0c1c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:03.482572-05:00",
+        "file_id": "1b055aea-842c-4e66-8c0b-0fdbf707809b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:30.319720-06:00"
+      },
+      {
+        "id": "024ade99-be76-426d-b392-bdd488eed535",
+        "cases": [
+          {
+            "case_id": "dd5074b2-462d-4267-8b9b-5a4c54e5978c",
+            "submitter_id": "TCGA-3A-A9IN",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "13e1f9c0-8caf-4c5c-8148-cecf8197bb53",
+                "submitter_id": "TCGA-3A-A9IN-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "57399a31-429d-47de-9bc6-bab6e816aa91.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:20.671945-05:00",
+        "file_id": "024ade99-be76-426d-b392-bdd488eed535",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:47.283822-06:00"
+      },
+      {
+        "id": "59c11d1d-90c4-4857-91e3-bc12183c6282",
+        "cases": [
+          {
+            "case_id": "c60a4c63-607b-4d59-8625-bc5d20207647",
+            "submitter_id": "TCGA-F2-6880",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "49ab06a6-0b56-488a-83f3-0f4f3cc93103",
+                "submitter_id": "TCGA-F2-6880-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5a109534-610c-4baf-8391-392171c753bf.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:26.941312-05:00",
+        "file_id": "59c11d1d-90c4-4857-91e3-bc12183c6282",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:53.265513-06:00"
+      },
+      {
+        "id": "a713387e-6f3f-4af2-8494-77355a54caa0",
+        "cases": [
+          {
+            "case_id": "5f468c25-73c3-49d5-ba12-50653dfe2c41",
+            "submitter_id": "TCGA-3A-A9IJ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f80e9141-3634-49cd-8c85-610c7f644d83",
+                "submitter_id": "TCGA-3A-A9IJ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "0086025e-db16-446f-83fe-27951b5cfbdb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:59.257955-05:00",
+        "file_id": "a713387e-6f3f-4af2-8494-77355a54caa0",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:14.119469-06:00"
+      },
+      {
+        "id": "932c9ad0-252c-4433-bd33-a79f942f1afb",
+        "cases": [
+          {
+            "case_id": "d47e214d-efbc-436d-b928-303d1f5135c4",
+            "submitter_id": "TCGA-FB-A7DR",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "e40d74da-ac10-42a5-82c0-efb80b75948e",
+                "submitter_id": "TCGA-FB-A7DR-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "942305f2-461a-4179-8a4f-d36f1873dc0b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:50.215844-05:00",
+        "file_id": "932c9ad0-252c-4433-bd33-a79f942f1afb",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:55.291124-06:00"
+      },
+      {
+        "id": "ef502468-0656-4c82-ad4c-bbbba43986be",
+        "cases": [
+          {
+            "case_id": "b8e0f4fb-c916-43b8-afd2-8077a7e3aebc",
+            "submitter_id": "TCGA-HZ-A8P1",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "69663afc-2cb6-4163-a9a1-64cd4593da63",
+                "submitter_id": "TCGA-HZ-A8P1-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "10b614d3-7608-48fb-a20a-aad19292598a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:59.511366-05:00",
+        "file_id": "ef502468-0656-4c82-ad4c-bbbba43986be",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:29.696445-06:00"
+      },
+      {
+        "id": "86ed628c-fb1a-4505-b6e8-0cc72719840e",
+        "cases": [
+          {
+            "case_id": "cf825b86-7ec2-4e90-bcce-3b5637b90b70",
+            "submitter_id": "TCGA-3A-A9IS",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "405b467e-41d2-4af1-8544-7b74d36deebd",
+                "submitter_id": "TCGA-3A-A9IS-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "592f9b63-6b4c-4d4d-b2dc-a061a109390b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:28.882030-05:00",
+        "file_id": "86ed628c-fb1a-4505-b6e8-0cc72719840e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:51.570573-06:00"
+      },
+      {
+        "id": "08675d5b-7408-489c-8b5b-a37fe94d8c4d",
+        "cases": [
+          {
+            "case_id": "70c2c861-01de-47bc-abfd-b7d14d68e1a1",
+            "submitter_id": "TCGA-HZ-8519",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3fc8ab9f-c744-4d0e-8f74-c6c436ab68e3",
+                "submitter_id": "TCGA-HZ-8519-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d1134e43-0cc6-4a95-951d-cb19623b27c1.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:41.878975-05:00",
+        "file_id": "08675d5b-7408-489c-8b5b-a37fe94d8c4d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:18.170453-06:00"
+      },
+      {
+        "id": "b4d49b83-cc71-4176-8dcd-3f7e74879e42",
+        "cases": [
+          {
+            "case_id": "6c0ea771-ea86-4db6-994a-2372b2b8f536",
+            "submitter_id": "TCGA-IB-A5ST",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "08fc3507-8072-4fbb-a39e-46b0d51ba8d0",
+                "submitter_id": "TCGA-IB-A5ST-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6080e600-bee0-48ad-bf20-e7ddd453f155.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:49.573631-05:00",
+        "file_id": "b4d49b83-cc71-4176-8dcd-3f7e74879e42",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:11.045796-06:00"
+      },
+      {
+        "id": "0e23faa2-0df2-4140-aec5-ba8e840844ea",
+        "cases": [
+          {
+            "case_id": "712c2f78-c736-42ce-b689-a954c5290987",
+            "submitter_id": "TCGA-IB-A7LX",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d27fd323-24c9-4654-a8d5-42da2c54f294",
+                "submitter_id": "TCGA-IB-A7LX-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "feec3523-951e-4541-8664-2a71adfdecb5.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:32.204083-05:00",
+        "file_id": "0e23faa2-0df2-4140-aec5-ba8e840844ea",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:14.189990-06:00"
+      },
+      {
+        "id": "30d82c00-417a-42b1-8b59-6815cce20578",
+        "cases": [
+          {
+            "case_id": "8e7d5615-5142-4d53-a460-2cafade1f690",
+            "submitter_id": "TCGA-2L-AAQE",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d5f3de1e-e4df-499f-b9c2-d1f5fb841f3d",
+                "submitter_id": "TCGA-2L-AAQE-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "63eb80b7-b83d-4937-a2e3-1be163c17bad.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:35.590054-05:00",
+        "file_id": "30d82c00-417a-42b1-8b59-6815cce20578",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:14.548524-06:00"
+      },
+      {
+        "id": "d8ee313b-643a-42fc-998f-95a7e27ee107",
+        "cases": [
+          {
+            "case_id": "45e48080-0b27-45f4-8149-1ae7e36c6933",
+            "submitter_id": "TCGA-IB-A6UG",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "567371df-10bf-4656-a705-b7bf369715b6",
+                "submitter_id": "TCGA-IB-A6UG-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1fbbda1c-5972-4a55-bbce-99531a213fdb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:09.231518-05:00",
+        "file_id": "d8ee313b-643a-42fc-998f-95a7e27ee107",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:52.396711-06:00"
+      },
+      {
+        "id": "7e460f1a-71f3-4d86-a146-c2ee5704237b",
+        "cases": [
+          {
+            "case_id": "d4f66f06-9289-45c1-b9eb-aaef991a4bb6",
+            "submitter_id": "TCGA-HV-A5A3",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "975ba0d6-92b7-46f8-a564-f852554e706e",
+                "submitter_id": "TCGA-HV-A5A3-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "241fe50e-0427-443d-8b22-35d747c4d03b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:53.223618-05:00",
+        "file_id": "7e460f1a-71f3-4d86-a146-c2ee5704237b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:02.589995-06:00"
+      },
+      {
+        "id": "9eaf1f4e-dd4e-4a8d-a5a2-c1763191faf5",
+        "cases": [
+          {
+            "case_id": "c70621cc-c8e1-441d-93ec-bd6922cc7f61",
+            "submitter_id": "TCGA-S4-A8RM",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "986f9084-bbb8-4afa-9d13-697dad1b7b1a",
+                "submitter_id": "TCGA-S4-A8RM-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d92e1164-75df-4944-a8cb-807faee74571.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:41.697294-05:00",
+        "file_id": "9eaf1f4e-dd4e-4a8d-a5a2-c1763191faf5",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:26.687012-06:00"
+      },
+      {
+        "id": "40f2771e-e140-46ed-b472-91c0233e6528",
+        "cases": [
+          {
+            "case_id": "3559f697-8fec-4f36-962c-632272fe9c9c",
+            "submitter_id": "TCGA-IB-7651",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "25160ba7-23d9-4234-a6c8-8a18e66b8b9b",
+                "submitter_id": "TCGA-IB-7651-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "c60e5bb7-e2f1-4583-a0eb-1584c45e8afd.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:19.650669-05:00",
+        "file_id": "40f2771e-e140-46ed-b472-91c0233e6528",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:06.781839-06:00"
+      },
+      {
+        "id": "35088c7e-99d5-46d4-a8df-ae85794c019b",
+        "cases": [
+          {
+            "case_id": "597a5a56-244b-4218-a55d-5d08217ea28c",
+            "submitter_id": "TCGA-XD-AAUL",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "eefa10e3-1267-41ba-8207-794ce650dcd1",
+                "submitter_id": "TCGA-XD-AAUL-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "64dcf9f2-ba3a-492d-9ac7-149cc86f2732.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:38.191912-05:00",
+        "file_id": "35088c7e-99d5-46d4-a8df-ae85794c019b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:16.367465-06:00"
+      },
+      {
+        "id": "3f463d35-ef25-4e5f-9cea-81576d0fde07",
+        "cases": [
+          {
+            "case_id": "0b4443a0-087d-47e7-9e67-795eac6750c3",
+            "submitter_id": "TCGA-IB-8127",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "96d1051d-1a65-4c28-ada7-3b042bda803e",
+                "submitter_id": "TCGA-IB-8127-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ee922546-b15e-4cc6-a715-5a396f14fcdd.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:43.641349-05:00",
+        "file_id": "3f463d35-ef25-4e5f-9cea-81576d0fde07",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:53.586494-06:00"
+      },
+      {
+        "id": "1244d7e1-7a90-4a47-b92b-fd93edd8561f",
+        "cases": [
+          {
+            "case_id": "3cbf56e6-dccc-40fe-b06e-2621a2121e9d",
+            "submitter_id": "TCGA-3A-A9IB",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d0cb3f51-5c67-4e8d-adb0-e80a9518b8c7",
+                "submitter_id": "TCGA-3A-A9IB-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2315cbc2-7289-4181-92fb-4f684cce84fa.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:33.397550-05:00",
+        "file_id": "1244d7e1-7a90-4a47-b92b-fd93edd8561f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:58.937648-06:00"
+      },
+      {
+        "id": "d73129d0-ec0b-46eb-817a-320040bc305d",
+        "cases": [
+          {
+            "case_id": "0944ce65-a89a-4916-b90a-f674b334281e",
+            "submitter_id": "TCGA-IB-7893",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "ced8751e-3265-4cfe-8289-d2c66dd0139c",
+                "submitter_id": "TCGA-IB-7893-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "00bb756b-d7e2-4008-9a96-a706e43649eb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:54.564900-05:00",
+        "file_id": "d73129d0-ec0b-46eb-817a-320040bc305d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:16.378193-06:00"
+      },
+      {
+        "id": "715a5638-c83d-4beb-9caf-f01047ec7a81",
+        "cases": [
+          {
+            "case_id": "1f5494c4-e26c-4512-96d9-30412b5b32ce",
+            "submitter_id": "TCGA-F2-A7TX",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "185c0c7e-b148-43f0-8d44-c7508dba85dd",
+                "submitter_id": "TCGA-F2-A7TX-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "254c37c1-6281-4a97-9dc1-31afd37830d0.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:08.397513-05:00",
+        "file_id": "715a5638-c83d-4beb-9caf-f01047ec7a81",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:08.741336-06:00"
+      },
+      {
+        "id": "439c7ab0-445d-42e7-8be5-144db4245626",
+        "cases": [
+          {
+            "case_id": "2c636fb4-c341-4c55-b920-27bc2d40c815",
+            "submitter_id": "TCGA-HZ-A4BH",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "5f91f484-6b2c-4b50-9392-3617b435c0b4",
+                "submitter_id": "TCGA-HZ-A4BH-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a81c54cd-5668-4e4c-b4c8-2322076cba16.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:54.739072-05:00",
+        "file_id": "439c7ab0-445d-42e7-8be5-144db4245626",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:31.380331-06:00"
+      },
+      {
+        "id": "0110e743-ac32-4b78-8eed-6e6cb8b75849",
+        "cases": [
+          {
+            "case_id": "4b37b026-1d41-4bad-8996-7cb1f0e569af",
+            "submitter_id": "TCGA-HZ-8002",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "bec00d02-06d8-40a0-b387-339f4cb4d0db",
+                "submitter_id": "TCGA-HZ-8002-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "79924ccb-c0e0-4b16-8b06-c1037cd55d61.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:55.902693-05:00",
+        "file_id": "0110e743-ac32-4b78-8eed-6e6cb8b75849",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:53.868492-06:00"
+      },
+      {
+        "id": "9c7d0cbe-953d-4785-8f79-ae54edb3d7ea",
+        "cases": [
+          {
+            "case_id": "56a1b8ff-a71c-4e5f-9c3c-d8162ff896aa",
+            "submitter_id": "TCGA-IB-A6UF",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "13b7a6ae-5d87-4fce-88b8-0c526b6301f1",
+                "submitter_id": "TCGA-IB-A6UF-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "875e9333-ef0a-4625-a5b6-56ce145f084d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:06.217010-05:00",
+        "file_id": "9c7d0cbe-953d-4785-8f79-ae54edb3d7ea",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:26.519435-06:00"
+      },
+      {
+        "id": "cb6f2165-b246-40ec-a1f1-38ff514c5c35",
+        "cases": [
+          {
+            "case_id": "503d7e36-df78-428d-9971-09ff707645c2",
+            "submitter_id": "TCGA-YH-A8SY",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "80dccacc-f79c-4701-9fa7-77982fe7a9c7",
+                "submitter_id": "TCGA-YH-A8SY-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "86ed7caa-4673-4235-bab9-e1ba3f789f8a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:06.639544-05:00",
+        "file_id": "cb6f2165-b246-40ec-a1f1-38ff514c5c35",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:25.073857-06:00"
+      },
+      {
+        "id": "127d29e6-393d-40c7-8c55-1ef072e3a525",
+        "cases": [
+          {
+            "case_id": "33833131-1482-42d5-9cf5-01cade540234",
+            "submitter_id": "TCGA-2J-AAB4",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "19110fc3-9693-4b22-ad08-3c06bcb33470",
+                "submitter_id": "TCGA-2J-AAB4-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "955c6c5f-bf69-4e82-b007-10bd87ce9a17.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:24.217694-05:00",
+        "file_id": "127d29e6-393d-40c7-8c55-1ef072e3a525",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:57.267062-06:00"
+      },
+      {
+        "id": "b9632740-926c-44ce-afc3-a312375440f2",
+        "cases": [
+          {
+            "case_id": "40fc7973-91c4-4fa8-a105-7fc3d6f3817c",
+            "submitter_id": "TCGA-HV-A5A6",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "c83bed5c-c690-49b6-bee6-6dacf0f3db91",
+                "submitter_id": "TCGA-HV-A5A6-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a56d2aa1-72de-453e-9a7f-9c52dca0a991.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:28.969176-05:00",
+        "file_id": "b9632740-926c-44ce-afc3-a312375440f2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:21.091563-06:00"
+      },
+      {
+        "id": "eb9da5b9-3fec-473d-9cc3-01f8b897dfae",
+        "cases": [
+          {
+            "case_id": "5965cd7b-f384-4473-826a-8381e362d10e",
+            "submitter_id": "TCGA-FB-AAQ3",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1f877e0a-02e7-4b3f-88f0-221054d20b6c",
+                "submitter_id": "TCGA-FB-AAQ3-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "602423c5-313b-45ea-9c4b-40a5b20b170b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:12.401564-05:00",
+        "file_id": "eb9da5b9-3fec-473d-9cc3-01f8b897dfae",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:07.138703-06:00"
+      },
+      {
+        "id": "333abc63-0410-4b63-b64d-11ecb404305e",
+        "cases": [
+          {
+            "case_id": "712335e1-f1e9-44b9-957c-497ea5e8fa2f",
+            "submitter_id": "TCGA-FB-AAPU",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b52b3fd1-29b7-4c74-b4bd-03f88500960f",
+                "submitter_id": "TCGA-FB-AAPU-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "d04f25f3-9c96-4f44-befe-a68d9e555cc8.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:36.915209-05:00",
+        "file_id": "333abc63-0410-4b63-b64d-11ecb404305e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:16.249410-06:00"
+      },
+      {
+        "id": "b64533e3-8dbd-4e50-8abe-a5cc52266897",
+        "cases": [
+          {
+            "case_id": "75119d1a-93e5-4ae7-9d60-69ee929a0772",
+            "submitter_id": "TCGA-2J-AAB1",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b83d846d-1b92-430c-a98e-352fcd24c0ab",
+                "submitter_id": "TCGA-2J-AAB1-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a87e8e1d-4ab3-4603-9d64-6a19c3ddf84e.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:15.349861-05:00",
+        "file_id": "b64533e3-8dbd-4e50-8abe-a5cc52266897",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:32.821010-06:00"
+      },
+      {
+        "id": "e993fbaf-8900-4a7b-8f73-3b7df51ab80f",
+        "cases": [
+          {
+            "case_id": "7e4e5633-6f83-4b46-b6eb-64b3f2866ba3",
+            "submitter_id": "TCGA-H6-8124",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1c16619f-c448-430c-9965-3c34b8415514",
+                "submitter_id": "TCGA-H6-8124-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "92c7d925-cd0d-446a-a681-2cdeb4aebf88.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:44.783313-05:00",
+        "file_id": "e993fbaf-8900-4a7b-8f73-3b7df51ab80f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:47.106756-06:00"
+      },
+      {
+        "id": "958e63e3-9fe5-46a8-8844-e1e8f5b1eb79",
+        "cases": [
+          {
+            "case_id": "f89d429f-4747-468b-b894-89583bd8ab02",
+            "submitter_id": "TCGA-XD-AAUG",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "744575cb-a16a-4f4c-ab75-b67085a5e56a",
+                "submitter_id": "TCGA-XD-AAUG-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1536fa04-c91a-489b-9688-3e4e8074e856.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:03.635413-05:00",
+        "file_id": "958e63e3-9fe5-46a8-8844-e1e8f5b1eb79",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:38.003420-06:00"
+      },
+      {
+        "id": "3d21cf04-a049-44ce-b698-4c033cf1669c",
+        "cases": [
+          {
+            "case_id": "6983fc34-9577-45e1-b246-40e18fab953f",
+            "submitter_id": "TCGA-IB-AAUV",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3dfda380-23d2-42b5-bc4d-a76784f12b55",
+                "submitter_id": "TCGA-IB-AAUV-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "53254141-2a2a-4524-8209-572831bd88a7.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:30.235009-05:00",
+        "file_id": "3d21cf04-a049-44ce-b698-4c033cf1669c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:42.496203-06:00"
+      },
+      {
+        "id": "9f65c99a-47f1-4f33-8a66-bd1fb638d953",
+        "cases": [
+          {
+            "case_id": "1521ac6d-31f7-4240-9d54-4f7600e78e16",
+            "submitter_id": "TCGA-HZ-7289",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7b73904d-821e-440b-9022-eedaa18f146d",
+                "submitter_id": "TCGA-HZ-7289-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "fe6f1ec7-deee-49ab-838d-e9b4d73377ca.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:30.473172-05:00",
+        "file_id": "9f65c99a-47f1-4f33-8a66-bd1fb638d953",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:11.996573-06:00"
+      },
+      {
+        "id": "e927777e-e4e2-4dfe-af34-a0b0a6342e9a",
+        "cases": [
+          {
+            "case_id": "e4babd46-005a-4af3-8041-131648d9c2c6",
+            "submitter_id": "TCGA-F2-7276",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f3c8c806-cf98-4d17-befc-3df3a4c3c7a9",
+                "submitter_id": "TCGA-F2-7276-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a1111943-685b-45e8-8b97-74f91f5dd048.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:37.550363-05:00",
+        "file_id": "e927777e-e4e2-4dfe-af34-a0b0a6342e9a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:17.528423-06:00"
+      },
+      {
+        "id": "cd7165a4-fe2e-4730-abbd-060097120571",
+        "cases": [
+          {
+            "case_id": "4c9e6085-41c3-4cfe-ad3d-5f94196a86e0",
+            "submitter_id": "TCGA-F2-7273",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "75adc049-2832-4cd8-a563-2961198eda63",
+                "submitter_id": "TCGA-F2-7273-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1651e0ed-ac68-481c-b5c0-1378372a90a4.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:19.037399-05:00",
+        "file_id": "cd7165a4-fe2e-4730-abbd-060097120571",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:39.810570-06:00"
+      },
+      {
+        "id": "f66069a4-d0b9-46af-9401-367c424ba19a",
+        "cases": [
+          {
+            "case_id": "c53d66d9-ad9a-417e-a441-df5bcf1ae13f",
+            "submitter_id": "TCGA-RL-AAAS",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a3de4634-8acb-47de-8986-1478626464bc",
+                "submitter_id": "TCGA-RL-AAAS-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "de01378c-dcfd-4200-b353-420b423f7587.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:47.455383-05:00",
+        "file_id": "f66069a4-d0b9-46af-9401-367c424ba19a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:32.519286-06:00"
+      },
+      {
+        "id": "e14ea4c0-3fe4-486c-8f9f-bad12964dbb6",
+        "cases": [
+          {
+            "case_id": "459028fd-0cd8-4e6d-a668-71fd60bd0a37",
+            "submitter_id": "TCGA-HZ-8637",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "0739286f-c4f3-4c52-bc2a-57bf9807c02d",
+                "submitter_id": "TCGA-HZ-8637-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "774f715e-5c42-40e0-83b8-dd789d4efca4.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:55.731473-05:00",
+        "file_id": "e14ea4c0-3fe4-486c-8f9f-bad12964dbb6",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:42.816993-06:00"
+      },
+      {
+        "id": "e38615d5-18c8-4976-a333-b483bb5e01ac",
+        "cases": [
+          {
+            "case_id": "f0a4944c-d6cf-4163-a1ab-189803464b03",
+            "submitter_id": "TCGA-M8-A5N4",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "bd1cffc7-dc9d-45d0-9eb7-9338132e715f",
+                "submitter_id": "TCGA-M8-A5N4-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9f7d7032-3b40-40d7-bf81-38ada138bf9f.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:22.677447-05:00",
+        "file_id": "e38615d5-18c8-4976-a333-b483bb5e01ac",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:15.407099-06:00"
+      },
+      {
+        "id": "75b208f8-8cf4-4857-a717-707a65111282",
+        "cases": [
+          {
+            "case_id": "9a2db69e-d429-45d4-89ca-a2c4e0cfc116",
+            "submitter_id": "TCGA-XD-AAUI",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "70cb6430-fd59-4210-b81c-642d6c2b9216",
+                "submitter_id": "TCGA-XD-AAUI-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ad230bbb-3436-4c63-ac1c-fd5e676432df.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:00.624035-05:00",
+        "file_id": "75b208f8-8cf4-4857-a717-707a65111282",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:44.205751-06:00"
+      },
+      {
+        "id": "34fe7a7d-8120-4527-8d7f-d136f2bb010c",
+        "cases": [
+          {
+            "case_id": "507a4e05-d5ab-4dbb-9b4f-76b1a21b79dd",
+            "submitter_id": "TCGA-2J-AABR",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "aa314c08-f2bc-4682-97bc-ad9d25ebc036",
+                "submitter_id": "TCGA-2J-AABR-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "4aa25d8a-34af-4837-8a17-c83f5f54a2ca.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:47.041875-05:00",
+        "file_id": "34fe7a7d-8120-4527-8d7f-d136f2bb010c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:38.865029-06:00"
+      },
+      {
+        "id": "ad163cf4-adf6-4b06-8350-0eaa2d670b39",
+        "cases": [
+          {
+            "case_id": "18960eb6-2d79-4d12-886a-4cd1e8fc1e21",
+            "submitter_id": "TCGA-IB-AAUW",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "73caa9fe-4293-4a71-9534-0d5adce937c1",
+                "submitter_id": "TCGA-IB-AAUW-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5d89bb92-a19f-4b11-8c64-eaa0dd8ef90a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:34.393297-05:00",
+        "file_id": "ad163cf4-adf6-4b06-8350-0eaa2d670b39",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:02.317353-06:00"
+      },
+      {
+        "id": "8e33355f-179c-4184-a333-ca1f70978744",
+        "cases": [
+          {
+            "case_id": "d14154a5-9c8a-4c55-8c2d-64f3cad7b7d5",
+            "submitter_id": "TCGA-IB-7647",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "77fb36d2-8910-4319-b8b6-1350e2fb7d18",
+                "submitter_id": "TCGA-IB-7647-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "66334760-e2e2-4068-84f2-ce49ecd473cb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:47.649462-05:00",
+        "file_id": "8e33355f-179c-4184-a333-ca1f70978744",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:19.466169-06:00"
+      },
+      {
+        "id": "cdb957f0-34d9-4db5-81a4-fb8c07eebb6f",
+        "cases": [
+          {
+            "case_id": "31aca8a3-7107-4b9d-8b6a-c07caa2a9339",
+            "submitter_id": "TCGA-IB-A5SS",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d0792a88-62e1-4b9d-8ba9-ac40e2afaa50",
+                "submitter_id": "TCGA-IB-A5SS-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f71d461a-af00-4c34-a973-3111c00b1dcb.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:32.742966-05:00",
+        "file_id": "cdb957f0-34d9-4db5-81a4-fb8c07eebb6f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:01.089731-06:00"
+      },
+      {
+        "id": "8bff1374-4e7d-4229-afe3-94aaa2cea9e0",
+        "cases": [
+          {
+            "case_id": "7240d5da-b54e-436b-8069-f2c9f516b75e",
+            "submitter_id": "TCGA-2L-AAQM",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7e36bec6-1b3b-43d9-a97e-9d96d323f0f5",
+                "submitter_id": "TCGA-2L-AAQM-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "68c6543a-fc7b-494e-96be-ed86b226446c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:46.316003-05:00",
+        "file_id": "8bff1374-4e7d-4229-afe3-94aaa2cea9e0",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:27.244101-06:00"
+      },
+      {
+        "id": "88b45a1d-4dd3-48cf-8615-76e5f9099a2c",
+        "cases": [
+          {
+            "case_id": "77e49007-3e44-4157-beae-8f7e94234c78",
+            "submitter_id": "TCGA-IB-7885",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "5efe29b7-fe78-480a-a2b7-dbb605482e83",
+                "submitter_id": "TCGA-IB-7885-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5a9a3685-e932-4571-a5e6-0f3752151571.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:57.579968-05:00",
+        "file_id": "88b45a1d-4dd3-48cf-8615-76e5f9099a2c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:56.743996-06:00"
+      },
+      {
+        "id": "5efe330b-4d57-4b26-a732-7bcabab3b863",
+        "cases": [
+          {
+            "case_id": "d8aa891c-8050-471e-ad3e-32b9c5e9db03",
+            "submitter_id": "TCGA-2L-AAQA",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d08f79b2-150a-44cf-9b8f-4b1dad26300e",
+                "submitter_id": "TCGA-2L-AAQA-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "b274360b-05bd-4509-af48-9e7772d4ff97.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:53.442802-05:00",
+        "file_id": "5efe330b-4d57-4b26-a732-7bcabab3b863",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:53.274927-06:00"
+      },
+      {
+        "id": "ca8190ae-3d6c-4550-a079-2c873f98f80a",
+        "cases": [
+          {
+            "case_id": "517e0f20-56cc-470e-8c5f-543efa10cfb5",
+            "submitter_id": "TCGA-3A-A9IZ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "9434a114-6fb9-421e-af9e-5d71ee6b28c7",
+                "submitter_id": "TCGA-3A-A9IZ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "24fca41d-bea2-4948-8689-2c56c82eaecf.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:53.345220-05:00",
+        "file_id": "ca8190ae-3d6c-4550-a079-2c873f98f80a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:06.595629-06:00"
+      },
+      {
+        "id": "3386c8d6-43ac-4149-ae83-d6f479bad39a",
+        "cases": [
+          {
+            "case_id": "f73dfd7f-e054-46ff-9485-e8d05afe2da6",
+            "submitter_id": "TCGA-IB-7886",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1ac9e2ae-4a92-4a03-9b6a-4ba8cf314bc6",
+                "submitter_id": "TCGA-IB-7886-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7fc44145-9e29-4f03-b15a-0d07482aaa9c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:58.311435-05:00",
+        "file_id": "3386c8d6-43ac-4149-ae83-d6f479bad39a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:07.241626-06:00"
+      },
+      {
+        "id": "e8bf1350-c26c-45ee-8026-ead112e146b7",
+        "cases": [
+          {
+            "case_id": "3264459c-adeb-486e-ab8f-274574441593",
+            "submitter_id": "TCGA-HV-A5A4",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b8465091-5505-4bc4-8c83-59ab36e7be13",
+                "submitter_id": "TCGA-HV-A5A4-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "71635a3b-07b8-48dd-8d46-6794c69f4e37.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:11.049267-05:00",
+        "file_id": "e8bf1350-c26c-45ee-8026-ead112e146b7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:37.442568-06:00"
+      },
+      {
+        "id": "3d055cb9-0bad-46bf-8579-259aac4607a2",
+        "cases": [
+          {
+            "case_id": "09fd6d9e-c715-4d57-88f9-238dd74c79a7",
+            "submitter_id": "TCGA-US-A774",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6bf9833f-16c4-41b7-a244-c6866e1bba70",
+                "submitter_id": "TCGA-US-A774-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "96209712-4352-493e-a9e2-f36f2130e3fe.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:41.251570-05:00",
+        "file_id": "3d055cb9-0bad-46bf-8579-259aac4607a2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:59.916815-06:00"
+      },
+      {
+        "id": "d192cdd3-1eef-4579-ab22-e11dd9b8030c",
+        "cases": [
+          {
+            "case_id": "01775b06-5836-469c-8537-120cb8cc94e9",
+            "submitter_id": "TCGA-IB-7897",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3af7b231-6638-498f-b778-cefb69b59968",
+                "submitter_id": "TCGA-IB-7897-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9379e3ff-7aa5-4c80-81f8-c3d328e4c473.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:54.575073-05:00",
+        "file_id": "d192cdd3-1eef-4579-ab22-e11dd9b8030c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:50.086242-06:00"
+      },
+      {
+        "id": "b1df6411-4c72-4e3f-bcdb-9b446386f4ed",
+        "cases": [
+          {
+            "case_id": "1782bf45-7350-4053-8dd1-45faf4ed8dd9",
+            "submitter_id": "TCGA-IB-7644",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "99aacbeb-6fab-4a80-a932-7f742427d563",
+                "submitter_id": "TCGA-IB-7644-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1667998e-06dc-4330-a9b1-a84ad7ed61fa.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:48.266437-05:00",
+        "file_id": "b1df6411-4c72-4e3f-bcdb-9b446386f4ed",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:41.248109-06:00"
+      },
+      {
+        "id": "9a48d83c-2674-48e6-a023-84170bf31145",
+        "cases": [
+          {
+            "case_id": "02dbd5fa-e31f-4486-8df8-5b851f2e92bd",
+            "submitter_id": "TCGA-HZ-8315",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "005f1dd8-49e2-4448-b37e-ac9fcffb02d6",
+                "submitter_id": "TCGA-HZ-8315-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ebf880a4-a168-49e9-b861-d1fc1a8b7d27.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:37.391113-05:00",
+        "file_id": "9a48d83c-2674-48e6-a023-84170bf31145",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:49.851736-06:00"
+      },
+      {
+        "id": "b26890fb-cbd6-4dc0-8f3f-cca025a61225",
+        "cases": [
+          {
+            "case_id": "23908554-b98e-4ff8-98e7-dee3e2c5feaf",
+            "submitter_id": "TCGA-Q3-AA2A",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6426fcc8-8fab-4376-b5c0-08b90c975bf4",
+                "submitter_id": "TCGA-Q3-AA2A-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f63aa3d3-691a-4dd2-9809-dcc83513b5e0.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:35.523744-05:00",
+        "file_id": "b26890fb-cbd6-4dc0-8f3f-cca025a61225",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:58.203389-06:00"
+      },
+      {
+        "id": "3946d6e3-4460-43f8-9c1b-defceee3fe4f",
+        "cases": [
+          {
+            "case_id": "27286a38-1035-4a22-9ebc-874df8c49026",
+            "submitter_id": "TCGA-HZ-A49I",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "81f10e63-73e0-4c07-be8b-b8c6d163b9ad",
+                "submitter_id": "TCGA-HZ-A49I-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "65ac44e1-923f-4d0a-aa08-50e92430a785.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:14.668029-05:00",
+        "file_id": "3946d6e3-4460-43f8-9c1b-defceee3fe4f",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:18.163422-06:00"
+      },
+      {
+        "id": "e377175c-5a94-4600-860f-e2e31fc960f5",
+        "cases": [
+          {
+            "case_id": "1db061c0-9b28-4bf9-8ad2-0383c69b6800",
+            "submitter_id": "TCGA-2L-AAQL",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d8971aaa-4d51-47b7-a481-72dc9a62fa26",
+                "submitter_id": "TCGA-2L-AAQL-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "82c85832-c1c2-4c8a-a0eb-4b6670d00b5b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:36:09.861699-05:00",
+        "file_id": "e377175c-5a94-4600-860f-e2e31fc960f5",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:13.703062-06:00"
+      },
+      {
+        "id": "9e839f31-9cfb-42b7-a279-32ea4445903b",
+        "cases": [
+          {
+            "case_id": "17142718-742e-464a-8e0f-a6b9ac8fad75",
+            "submitter_id": "TCGA-HZ-A49H",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "af201816-3185-46af-b18e-8bbc777efdb9",
+                "submitter_id": "TCGA-HZ-A49H-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "cb3be2e6-3f8a-4918-8c04-8b4af2e55616.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:29.112092-05:00",
+        "file_id": "9e839f31-9cfb-42b7-a279-32ea4445903b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:12.565405-06:00"
+      },
+      {
+        "id": "541ae33d-b504-4c86-8758-20087845a579",
+        "cases": [
+          {
+            "case_id": "4f87e061-e773-48f2-84ba-32401396500e",
+            "submitter_id": "TCGA-IB-A5SQ",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "70ebc8c8-bfb1-4a94-a8f5-6d8ac9262bd1",
+                "submitter_id": "TCGA-IB-A5SQ-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ef46a73f-2576-4901-9781-701de30e2bdd.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:10.916114-05:00",
+        "file_id": "541ae33d-b504-4c86-8758-20087845a579",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:55.208977-06:00"
+      },
+      {
+        "id": "35e2ac4f-1f27-4c48-9a15-9bb66a81b6ac",
+        "cases": [
+          {
+            "case_id": "5dbb4642-6636-4d67-9e73-25c7312aec44",
+            "submitter_id": "TCGA-F2-A8YN",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7cb347e0-f24c-4d2b-a1d5-954dca867a36",
+                "submitter_id": "TCGA-F2-A8YN-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "92aa0849-b81d-47b7-877a-7e1af6193053.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:27.607305-05:00",
+        "file_id": "35e2ac4f-1f27-4c48-9a15-9bb66a81b6ac",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:45.152767-06:00"
+      },
+      {
+        "id": "6ba6db00-39b0-4627-b5de-4438f75c5cf2",
+        "cases": [
+          {
+            "case_id": "514d12b0-6f60-406e-bde9-a090e918ebff",
+            "submitter_id": "TCGA-HZ-A4BK",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7a6451c0-143e-40d2-8ad1-9fd9e8546838",
+                "submitter_id": "TCGA-HZ-A4BK-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "c1f4176e-f133-4888-a59c-0938932a7f5c.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:33.001580-05:00",
+        "file_id": "6ba6db00-39b0-4627-b5de-4438f75c5cf2",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:04.864392-06:00"
+      },
+      {
+        "id": "74ee5cc4-2195-4d17-ae08-837b837373fd",
+        "cases": [
+          {
+            "case_id": "67e9abc1-4b6f-4054-bdc4-29906c55c682",
+            "submitter_id": "TCGA-3A-A9IC",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6d821228-fed7-4437-92ad-49dcc159accd",
+                "submitter_id": "TCGA-3A-A9IC-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "f95a39e2-c8c6-4721-9a29-d178254eb901.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:48.225874-05:00",
+        "file_id": "74ee5cc4-2195-4d17-ae08-837b837373fd",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:58:02.808843-06:00"
+      },
+      {
+        "id": "4be7003d-17f1-4c16-a8ef-d93a447f5a1d",
+        "cases": [
+          {
+            "case_id": "5aa57fff-4515-4076-8798-55015bb4f156",
+            "submitter_id": "TCGA-US-A77E",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a8b93262-43c7-4d73-a6b2-479673612d53",
+                "submitter_id": "TCGA-US-A77E-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a79c34bc-b143-4850-87e8-1dfe7e0753f5.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:08.292800-05:00",
+        "file_id": "4be7003d-17f1-4c16-a8ef-d93a447f5a1d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:29.704042-06:00"
+      },
+      {
+        "id": "5cf04570-9415-4187-b8fc-4d0452c4d363",
+        "cases": [
+          {
+            "case_id": "758b70f6-8064-4f43-aabe-e5f968fe2955",
+            "submitter_id": "TCGA-H6-A45N",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "4f770870-6974-4fa2-a4a9-aa6ce786dafe",
+                "submitter_id": "TCGA-H6-A45N-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "44619d19-8ff1-4dbc-a943-732ad6faaa72.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:13.303094-05:00",
+        "file_id": "5cf04570-9415-4187-b8fc-4d0452c4d363",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:28.541658-06:00"
+      },
+      {
+        "id": "818a7d3a-8c14-4fd6-83f1-000cca2be04b",
+        "cases": [
+          {
+            "case_id": "7a1d9862-910b-403e-9eab-697dc65618c7",
+            "submitter_id": "TCGA-IB-7645",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "93d309d1-2c1b-4189-8aee-0c87684c0b45",
+                "submitter_id": "TCGA-IB-7645-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "0dd7a05f-bbe4-4fd7-98cc-4b90568be8fc.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:33:16.699387-05:00",
+        "file_id": "818a7d3a-8c14-4fd6-83f1-000cca2be04b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:28.025167-06:00"
+      },
+      {
+        "id": "4d5b1ac7-1ed8-4ea7-bbaf-a83d1c5cddf3",
+        "cases": [
+          {
+            "case_id": "a5748656-5330-417a-8938-01f69ddb3576",
+            "submitter_id": "TCGA-2J-AAB9",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "02884cc4-f047-4d54-8389-b835e7707958",
+                "submitter_id": "TCGA-2J-AAB9-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "4271b388-e311-4cb1-8e89-f031f1a7e032.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:57.214678-05:00",
+        "file_id": "4d5b1ac7-1ed8-4ea7-bbaf-a83d1c5cddf3",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:26.352212-06:00"
+      },
+      {
+        "id": "2ef39ad3-7a20-43f7-8dc2-6997a89d3077",
+        "cases": [
+          {
+            "case_id": "9246c642-3231-4137-a24b-3efae151b655",
+            "submitter_id": "TCGA-FB-A4P6",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "1412eb00-7508-4933-8888-e76fe385beff",
+                "submitter_id": "TCGA-FB-A4P6-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "ac1c16e5-e009-400a-8294-4a37d16982a0.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:55.679062-05:00",
+        "file_id": "2ef39ad3-7a20-43f7-8dc2-6997a89d3077",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:40.386715-06:00"
+      },
+      {
+        "id": "90321946-18e9-4ebb-9412-2b7b4bb7b1e4",
+        "cases": [
+          {
+            "case_id": "9d5c5303-550f-454f-8fd4-8abcdd311215",
+            "submitter_id": "TCGA-RB-AA9M",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "6a57b90f-bd7a-4d50-8585-baee5cc6f282",
+                "submitter_id": "TCGA-RB-AA9M-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "9ed859cc-42db-41aa-bda0-3248de0d84d4.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:01.348094-05:00",
+        "file_id": "90321946-18e9-4ebb-9412-2b7b4bb7b1e4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:13.038137-06:00"
+      },
+      {
+        "id": "c5f8609e-0a71-47ae-a0b3-1f84ebe797d4",
+        "cases": [
+          {
+            "case_id": "a643d0b8-aa50-481c-9f12-f2e634d61d90",
+            "submitter_id": "TCGA-3E-AAAY",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f6ead66c-5dbc-4134-b476-552f89990584",
+                "submitter_id": "TCGA-3E-AAAY-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "7f20cdf2-1e08-4e57-bbf4-bbc917b5a513.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:31.548281-05:00",
+        "file_id": "c5f8609e-0a71-47ae-a0b3-1f84ebe797d4",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:04.719469-06:00"
+      },
+      {
+        "id": "124ae6a1-e656-4f54-84b2-0df788351384",
+        "cases": [
+          {
+            "case_id": "d1e0f479-77dd-42cd-89cb-c1eeac60c10a",
+            "submitter_id": "TCGA-IB-7646",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "f75b3ee2-b441-47f9-b62e-74cde20e952b",
+                "submitter_id": "TCGA-IB-7646-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "3330751a-3bbb-4e63-9ae1-07112711cdb4.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:29:44.405449-05:00",
+        "file_id": "124ae6a1-e656-4f54-84b2-0df788351384",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:20.039385-06:00"
+      },
+      {
+        "id": "e3fd8f04-ba59-498c-9b58-dd8f5f96b0fd",
+        "cases": [
+          {
+            "case_id": "d211e0c1-7968-4343-8aae-27fab0039367",
+            "submitter_id": "TCGA-US-A776",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "ef5e9a09-b1cc-4ca0-9e67-5415ab8cbc6e",
+                "submitter_id": "TCGA-US-A776-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "bce2e178-7808-4d6d-84ce-6d91a22c196d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:36.357420-05:00",
+        "file_id": "e3fd8f04-ba59-498c-9b58-dd8f5f96b0fd",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:02.337906-06:00"
+      },
+      {
+        "id": "c7be34ee-0d68-47fa-bea9-601cc5da20cb",
+        "cases": [
+          {
+            "case_id": "c53328b4-0930-4e6a-a648-283b5565295e",
+            "submitter_id": "TCGA-2J-AABH",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "56d664e4-efa9-4ff7-b600-d198e6fbdcd7",
+                "submitter_id": "TCGA-2J-AABH-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "a7017a73-7e1f-45a9-9c78-7353acffd4d1.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:39.196326-05:00",
+        "file_id": "c7be34ee-0d68-47fa-bea9-601cc5da20cb",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:27.508409-06:00"
+      },
+      {
+        "id": "d2e361de-6670-428b-ae73-7b2ea49e743a",
+        "cases": [
+          {
+            "case_id": "ab449860-46e5-485e-abd5-31c5abef2c58",
+            "submitter_id": "TCGA-L1-A7W4",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "618851a2-a6c8-4a0b-b1d9-d1365309fee6",
+                "submitter_id": "TCGA-L1-A7W4-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "73dfe663-7d60-4317-843b-d4933353abb6.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:08.044968-05:00",
+        "file_id": "d2e361de-6670-428b-ae73-7b2ea49e743a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:40.932309-06:00"
+      },
+      {
+        "id": "89ddb133-8f62-4be4-8569-bf184c94652d",
+        "cases": [
+          {
+            "case_id": "dd7bcdd8-1660-4dab-9860-9d136c4cee77",
+            "submitter_id": "TCGA-XN-A8T3",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "0f850dd7-7a15-434d-acf6-2398f53cf6ad",
+                "submitter_id": "TCGA-XN-A8T3-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "8a0383a7-bb13-4a38-9c88-842421b30a29.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:34:10.110295-05:00",
+        "file_id": "89ddb133-8f62-4be4-8569-bf184c94652d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:35.407782-06:00"
+      },
+      {
+        "id": "7ba9b358-398f-4bdc-9835-7ad743aaff69",
+        "cases": [
+          {
+            "case_id": "ca2da39a-263c-4238-9826-de7d52e63d0f",
+            "submitter_id": "TCGA-IB-7891",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "bf1308ad-0ccf-4f0a-b4f7-d00a18330c98",
+                "submitter_id": "TCGA-IB-7891-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1953db7a-88ae-4d2e-be77-a1d09f4acd96.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:38.346623-05:00",
+        "file_id": "7ba9b358-398f-4bdc-9835-7ad743aaff69",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:47.167871-06:00"
+      },
+      {
+        "id": "739472cc-a30d-4e46-93cc-5ae08eb39f0a",
+        "cases": [
+          {
+            "case_id": "f91eb33d-76f0-418c-9962-11a5b31ca1dc",
+            "submitter_id": "TCGA-HZ-7925",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "4f6d03c5-e9b0-4a8a-b386-823c7a5de1db",
+                "submitter_id": "TCGA-HZ-7925-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "afa6c687-a940-4482-8c76-4683dc9b3a6d.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:20.612724-05:00",
+        "file_id": "739472cc-a30d-4e46-93cc-5ae08eb39f0a",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:51.771399-06:00"
+      },
+      {
+        "id": "425613bb-a981-4984-95d5-50839b89a04e",
+        "cases": [
+          {
+            "case_id": "ce2bfd9e-6382-47bb-9fd1-b77afe57e948",
+            "submitter_id": "TCGA-S4-A8RP",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "7d8aeea9-463c-4a73-ad77-614887041c08",
+                "submitter_id": "TCGA-S4-A8RP-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "8bc8bd50-aea9-422c-891e-f6d0f4ff7d33.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:05.854497-05:00",
+        "file_id": "425613bb-a981-4984-95d5-50839b89a04e",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:36.662273-06:00"
+      },
+      {
+        "id": "aecb9796-a4fe-4b4d-99b2-0b661d8a3887",
+        "cases": [
+          {
+            "case_id": "0b4b50c7-aa0b-4a64-807b-d3cb47eeeb6f",
+            "submitter_id": "TCGA-2J-AABU",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "cdebcd86-57f0-4980-906b-7d1695f7c6f8",
+                "submitter_id": "TCGA-2J-AABU-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "344f409f-44f2-4853-bd3d-6b96e8bc82ca.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:00.516655-05:00",
+        "file_id": "aecb9796-a4fe-4b4d-99b2-0b661d8a3887",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:21.546009-06:00"
+      },
+      {
+        "id": "b8802db6-a0c5-4d4e-842e-22a91f36974b",
+        "cases": [
+          {
+            "case_id": "1756244e-13bc-4ed7-8b91-005608803d91",
+            "submitter_id": "TCGA-Q3-A5QY",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "b9c81d4e-8f69-466a-8d35-b624adf99009",
+                "submitter_id": "TCGA-Q3-A5QY-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "778a26f2-ace7-4ce0-b0f1-ab23cacb2f84.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:03.096237-05:00",
+        "file_id": "b8802db6-a0c5-4d4e-842e-22a91f36974b",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:46.472576-06:00"
+      },
+      {
+        "id": "284c58ee-b128-4d55-911c-1207d003ce52",
+        "cases": [
+          {
+            "case_id": "31e66b80-c684-4ee8-82ae-36d00f36bc88",
+            "submitter_id": "TCGA-IB-7889",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "8f23878e-87bb-4d34-a566-4b2d4999f1e6",
+                "submitter_id": "TCGA-IB-7889-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "87b4e79a-2e86-4b8a-a002-d6df81905fde.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:09.574373-05:00",
+        "file_id": "284c58ee-b128-4d55-911c-1207d003ce52",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:28.116441-06:00"
+      },
+      {
+        "id": "3e88a838-0909-4b94-8747-9003414d422d",
+        "cases": [
+          {
+            "case_id": "40d9b9f7-42b7-4cfd-af95-660777ad0529",
+            "submitter_id": "TCGA-FB-A5VM",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "3bc32bf5-8f81-4c93-8333-4c43a4f6f6c0",
+                "submitter_id": "TCGA-FB-A5VM-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "cb605953-8860-4563-8e64-210c886b4d65.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:31:03.207287-05:00",
+        "file_id": "3e88a838-0909-4b94-8747-9003414d422d",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:14.342610-06:00"
+      },
+      {
+        "id": "d36a090d-0b64-459a-931b-b743095fb96c",
+        "cases": [
+          {
+            "case_id": "570f9947-1ce5-49c7-9619-49439df6c7a9",
+            "submitter_id": "TCGA-F2-A44H",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "361bc661-b78b-455e-8444-fe20646082e8",
+                "submitter_id": "TCGA-F2-A44H-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "6289f4a8-1b68-4ac2-991f-1560fd61a9e7.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:20.267565-05:00",
+        "file_id": "d36a090d-0b64-459a-931b-b743095fb96c",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:54:12.692871-06:00"
+      },
+      {
+        "id": "188fd6b9-4291-47c9-bb04-e9e67d4b0465",
+        "cases": [
+          {
+            "case_id": "5494af7d-403a-423b-b7ff-e6db9c117e93",
+            "submitter_id": "TCGA-IB-7890",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "a9423161-fe22-45d8-bb7c-b5e886ff35cc",
+                "submitter_id": "TCGA-IB-7890-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "2ba18b80-1f6f-4b67-9eae-59c5a932b26b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:25.491070-05:00",
+        "file_id": "188fd6b9-4291-47c9-bb04-e9e67d4b0465",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:11.491728-06:00"
+      },
+      {
+        "id": "df863996-d40d-43e3-84f0-938ca2a78fe9",
+        "cases": [
+          {
+            "case_id": "5971a597-1e16-4f6d-8d7b-0e69c6bdcead",
+            "submitter_id": "TCGA-HZ-A77P",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "2f600885-e2f7-4bf1-b0e2-f00138a17b74",
+                "submitter_id": "TCGA-HZ-A77P-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "966870d5-cfb6-4f7b-bc8e-3032eaa4d03a.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:42.270411-05:00",
+        "file_id": "df863996-d40d-43e3-84f0-938ca2a78fe9",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:56:01.535905-06:00"
+      },
+      {
+        "id": "df0db454-9793-42df-aeb3-23ca4a105ccb",
+        "cases": [
+          {
+            "case_id": "81b6b844-d760-4146-9b01-1c4b2596eb77",
+            "submitter_id": "TCGA-FB-AAQ0",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "00585894-808a-4635-8a2e-94cd72599c1a",
+                "submitter_id": "TCGA-FB-AAQ0-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "907768c7-70e3-4141-bc94-589d46e93b85.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:21.385685-05:00",
+        "file_id": "df0db454-9793-42df-aeb3-23ca4a105ccb",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:40.689432-06:00"
+      },
+      {
+        "id": "60a6a0c1-f871-43b7-94ae-668dfb7035f7",
+        "cases": [
+          {
+            "case_id": "6a4e10b6-e6c4-4210-ae4d-0d8e8d0cb3ec",
+            "submitter_id": "TCGA-Z5-AAPL",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "60ff16b8-4c68-45b1-864b-39818f6dde5c",
+                "submitter_id": "TCGA-Z5-AAPL-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "e33a7d0d-d750-4313-9f15-1ff4fcf15c0b.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:41.918835-05:00",
+        "file_id": "60a6a0c1-f871-43b7-94ae-668dfb7035f7",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:57:36.333869-06:00"
+      },
+      {
+        "id": "75bca18c-55fd-4c78-bcac-543d64d55c28",
+        "cases": [
+          {
+            "case_id": "70797499-16e6-48cc-8ae4-1e692713dad3",
+            "submitter_id": "TCGA-2J-AAB6",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "75099a24-6487-4556-8893-249eb02e8c87",
+                "submitter_id": "TCGA-2J-AAB6-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "1759258a-e562-458b-ba00-de2d766db773.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:32:23.140693-05:00",
+        "file_id": "75bca18c-55fd-4c78-bcac-543d64d55c28",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:52:42.800186-06:00"
+      },
+      {
+        "id": "a566d8ee-aed0-44c2-8409-38e03bd8e545",
+        "cases": [
+          {
+            "case_id": "f852de27-b600-44a4-ab30-d74108dfc2e9",
+            "submitter_id": "TCGA-LB-A8F3",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "d9a823d5-eb37-4bc7-98b1-bd09da314c62",
+                "submitter_id": "TCGA-LB-A8F3-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "5a723bc2-5ae6-412e-8da4-ca35d8f36830.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:35:11.707053-05:00",
+        "file_id": "a566d8ee-aed0-44c2-8409-38e03bd8e545",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:53:54.879711-06:00"
+      },
+      {
+        "id": "330772f0-6c6f-45b6-8b22-342325fbad53",
+        "cases": [
+          {
+            "case_id": "c6388925-c0a1-4610-a6b9-d9d9500d88c6",
+            "submitter_id": "TCGA-IB-A5SO",
+            "project": {
+              "project_id": "TCGA-PAAD"
+            },
+            "samples": [
+              {
+                "sample_id": "9ec045e9-52cb-42c9-be4f-cc44615b6aff",
+                "submitter_id": "TCGA-IB-A5SO-01A",
+                "sample_type": "Primary Tumor"
+              }
+            ]
+          }
+        ],
+        "access": "open",
+        "file_name": "84d01517-3acf-4b2f-a404-63c2b0f9d6d8.rna_seq.augmented_star_gene_counts.tsv",
+        "updated_datetime": "2024-07-30T14:30:45.670798-05:00",
+        "file_id": "330772f0-6c6f-45b6-8b22-342325fbad53",
+        "data_type": "Gene Expression Quantification",
+        "data_category": "Transcriptome Profiling",
+        "analysis": {
+          "workflow_type": "STAR - Counts"
+        },
+        "experimental_strategy": "RNA-Seq",
+        "created_datetime": "2021-12-13T19:55:21.186455-06:00"
+      }
+    ],
+    "pagination": {
+      "count": 178,
+      "total": 178,
+      "size": 10000,
+      "from": 0,
+      "sort": "",
+      "page": 1,
+      "pages": 1
+    }
+  },
+  "warnings": {
+    "fields": "unrecognized values: [release_state]"
+  }
+}

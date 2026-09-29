@@ -1,0 +1,20 @@
+GDC METADATA-ONLY VALIDATION REPORT
+Files returned: 178
+Primary Tumor sample records: 178
+Unique samples: 178
+Selected files: 178
+Duplicate samples: 0
+Duplicate file UUIDs: 0
+Project: TCGA-PAAD
+Data category: Transcriptome Profiling
+Data type: Gene Expression Quantification
+Experimental strategy: RNA-Seq
+Workflow: STAR - Counts
+Sample type: Primary Tumor
+Access level: open
+Example files:
+  a4d0115d-3bb1-41df-b2a8-823cebc7104a  e8eede96-3043-4c0a-bcd0-7e4281d9f278.rna_seq.augmented_star_gene_counts.tsv  TCGA-IB-7888-01A
+  f253cd32-9c55-4541-8c6c-5e4a1db99ee1  9e929b5c-ac99-404c-a2f0-d9d8c1079164.rna_seq.augmented_star_gene_counts.tsv  TCGA-FB-A78T-01A
+  fbd81952-f83a-4a24-86f8-5a415a722499  87e3b726-ab2a-44c3-91b0-bebf65ef9404.rna_seq.augmented_star_gene_counts.tsv  TCGA-2J-AABI-01A
+  649f4d81-a634-4734-ba31-bdeb0877312a  6813be8f-c90b-4505-9293-ed370e771ccf.rna_seq.augmented_star_gene_counts.tsv  TCGA-HZ-7918-01A
+  4a1c8620-73ce-4be9-ae64-589afb3007d9  4ce54c3c-0ede-4921-8a6f-97478e184c7c.rna_seq.augmented_star_gene_counts.tsv  TCGA-2J-AABO-01A
