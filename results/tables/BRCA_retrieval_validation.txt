@@ -1,0 +1,20 @@
+GDC METADATA-ONLY VALIDATION REPORT
+Files returned: 1111
+Primary Tumor sample records: 1111
+Unique samples: 1106
+Selected files: 1106
+Duplicate samples: 5
+Duplicate file UUIDs: 0
+Project: TCGA-BRCA
+Data category: Transcriptome Profiling
+Data type: Gene Expression Quantification
+Experimental strategy: RNA-Seq
+Workflow: STAR - Counts
+Sample type: Primary Tumor
+Access level: open
+Example files:
+  ead53b27-6ad9-4b96-b5d4-0d4f06fb2d13  dadd1789-354a-4abb-8d4e-8556166cf341.rna_seq.augmented_star_gene_counts.tsv  TCGA-A8-A09E-01A
+  0e1999e0-9c02-4804-88b6-60b46d100739  db5dab56-838e-4784-a7cf-f05296e356f7.rna_seq.augmented_star_gene_counts.tsv  TCGA-A7-A0DC-01A
+  3e8cff80-ed17-479c-8327-ca8e71ee7482  0c814cd9-5b2c-4764-9e6a-6ad0403fcd7d.rna_seq.augmented_star_gene_counts.tsv  TCGA-A7-A0DC-01B
+  385ddd6f-c126-4c4f-acde-1ef2d74d3639  616b6b60-8c4a-4d85-9a24-f47df6ad497e.rna_seq.augmented_star_gene_counts.tsv  TCGA-A8-A08F-01A
+  91060c43-f1e3-49ea-a3c9-96def417716b  caf3d917-623d-4e2a-ac0a-521415385763.rna_seq.augmented_star_gene_counts.tsv  TCGA-A8-A091-01A

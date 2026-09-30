@@ -1,0 +1,20 @@
+GDC METADATA-ONLY VALIDATION REPORT
+Files returned: 103
+Primary Tumor sample records: 103
+Unique samples: 103
+Selected files: 103
+Duplicate samples: 0
+Duplicate file UUIDs: 0
+Project: TCGA-SKCM
+Data category: Transcriptome Profiling
+Data type: Gene Expression Quantification
+Experimental strategy: RNA-Seq
+Workflow: STAR - Counts
+Sample type: Primary Tumor
+Access level: open
+Example files:
+  48797c31-ab2a-48b0-add1-25954dc8c901  81c0d65d-fb6f-4acb-a038-17d90d32d922.rna_seq.augmented_star_gene_counts.tsv  TCGA-EB-A85I-01A
+  1f8cef65-ab1f-44cf-b706-7f1f25926dc0  e0b149bb-4467-4928-a80b-ef3ac97ddbd2.rna_seq.augmented_star_gene_counts.tsv  TCGA-BF-A3DJ-01A
+  9d8077b2-bae2-478d-bacc-fd1e5c6e61e7  12a488c6-c319-4f40-9f62-82e74773370c.rna_seq.augmented_star_gene_counts.tsv  TCGA-BF-A1Q0-01A
+  c20877dc-eb5e-41b9-a395-5bb629344e38  3c5fe4dc-8606-4615-994f-c41861f08f5a.rna_seq.augmented_star_gene_counts.tsv  TCGA-EB-A551-01A
+  264c2801-550b-4087-bd92-8157753a226b  b8f68a8a-46f3-4c79-8474-13815946d4f9.rna_seq.augmented_star_gene_counts.tsv  TCGA-EB-A44P-01A

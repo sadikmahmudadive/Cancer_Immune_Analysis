@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Retrieve open-access TCGA-PAAD STAR-Counts data from the GDC API.
+"""Retrieve open-access TCGA STAR-Counts data from the GDC API.
 
 The default mode is metadata-only. Pass --download only after reviewing the
 validation report and manifest produced by the metadata query.
@@ -44,6 +44,10 @@ FIELDS = [
 ]
 
 
+def project_code() -> str:
+    return PROJECT.removeprefix("TCGA-")
+
+
 def gdc_filters() -> dict[str, Any]:
     def clause(field: str, value: str) -> dict[str, Any]:
         return {"op": "in", "content": {"field": field, "value": [value]}}
@@ -64,7 +68,7 @@ def gdc_filters() -> dict[str, Any]:
 
 def make_dirs(root: Path) -> dict[str, Path]:
     paths = {
-        "raw": root / "data" / "raw",
+        "raw": root / "data" / "raw" / project_code(),
         "processed": root / "data" / "processed",
         "notebooks": root / "notebooks",
         "figures": root / "results" / "figures",
@@ -219,7 +223,7 @@ def download_files(session: requests.Session, rows: list[dict[str, str]], raw_di
         temporary = output.with_suffix(".part")
         with requests.get(
             f"{API_BASE}/data/{row['file_uuid']}",
-            headers={"User-Agent": "TCGA-PAAD-Hot-Cold-preparation/1.0"},
+            headers={"User-Agent": "TCGA-Hot-Cold-preparation/1.0"},
             stream=True,
             timeout=180,
         ) as response:
@@ -265,7 +269,13 @@ def detect_star_columns(path: Path) -> tuple[list[str], int, dict[str, str]]:
 
 
 def load_gene_counts(path: Path, header_line: int, columns: dict[str, str]) -> pd.Series:
-    frame = pd.read_csv(path, sep="\t", skiprows=header_line, dtype={columns["gene_identifier"]: "string", columns["gene_symbol"]: "string"})
+    frame = pd.read_csv(
+        path,
+        sep="\t",
+        skiprows=header_line,
+        usecols=[columns["gene_identifier"], columns["gene_symbol"], columns["unstranded_count"]],
+        dtype={columns["gene_identifier"]: "string", columns["gene_symbol"]: "string"},
+    )
     ids = frame[columns["gene_identifier"]].fillna("").astype(str)
     symbols = frame[columns["gene_symbol"]].fillna("").astype(str)
     values = pd.to_numeric(frame[columns["unstranded_count"]], errors="coerce")
@@ -295,10 +305,10 @@ def build_matrices(selected: list[dict[str, str]], raw_dir: Path, processed_dir:
     found = [gene for gene in REQUESTED_GENES if gene in matrix.index and matrix.loc[gene].notna().any()]
     missing = [gene for gene in REQUESTED_GENES if gene not in found]
     matrix.index.name = "gene_symbol"
-    matrix.to_csv(processed_dir / "PAAD_27gene_raw_counts.csv")
+    matrix.to_csv(processed_dir / f"{project_code()}_27gene_raw_counts.csv")
     log2_matrix = np.log2(matrix + 1)
     log2_matrix.index.name = "gene_symbol"
-    log2_matrix.to_csv(processed_dir / "PAAD_27gene_log2_counts.csv")
+    log2_matrix.to_csv(processed_dir / f"{project_code()}_27gene_log2_counts.csv")
     parser_info = {
         "observed_columns": observed_columns,
         "header_line": header_line,
@@ -310,7 +320,8 @@ def build_matrices(selected: list[dict[str, str]], raw_dir: Path, processed_dir:
 
 def write_readme(root: Path, status: dict[str, Any]) -> None:
     missing = ", ".join(status["missing_genes"]) if status["missing_genes"] else "None"
-    readme = f"""# TCGA-PAAD Hot/Cold immune-TME preparation
+    code = project_code()
+    readme = f"""# TCGA-{code} Hot/Cold immune-TME preparation
 
 ## Data provenance
 
@@ -328,34 +339,33 @@ def write_readme(root: Path, status: dict[str, Any]) -> None:
 
 ## Retrieval and processing
 
-The exact API request and response are saved in `data/processed/gdc_paad_star_counts_api_query.json` and `data/processed/gdc_paad_star_counts_api_response.json`. The file-level manifest is `data/processed/gdc_paad_star_counts_manifest.csv`. Raw files are named by GDC file UUID and were downloaded only from the GDC `/data/{{file_uuid}}` endpoint.
+The exact API request and response are saved in `data/processed/gdc_{code.lower()}_star_counts_api_query.json` and `data/processed/gdc_{code.lower()}_star_counts_api_response.json`. The file-level manifest is `data/processed/gdc_{code.lower()}_star_counts_manifest.csv`. Raw files are named by GDC file UUID and were downloaded only from the GDC `/data/{{file_uuid}}` endpoint.
 
 The metadata query returned {status['files_found']} qualifying files; {status['files_selected']} files were selected after duplicate-sample handling and {status['files_downloaded']} were downloaded during this run. The STAR-Counts schema was inspected from a downloaded file before parsing. Its resolved columns were: gene identifier `{status['parser_columns'].get('gene_identifier', 'not inspected')}`, gene symbol `{status['parser_columns'].get('gene_symbol', 'not inspected')}`, and unstranded counts `{status['parser_columns'].get('unstranded_count', 'not inspected')}`.
 
 The processed matrix has {status['genes_found']} found panel genes by {status['samples']} unique TCGA samples. Missing genes: {missing}.
 
-`PAAD_27gene_raw_counts.csv` contains raw unstranded gene-level counts. `PAAD_27gene_log2_counts.csv` contains `log2(counts + 1)` transformed counts only. It is not TPM, FPKM, or FPKM-UQ.
+`{code}_27gene_raw_counts.csv` contains raw unstranded gene-level counts. `{code}_27gene_log2_counts.csv` contains `log2(counts + 1)` transformed counts only. It is not TPM, FPKM, or FPKM-UQ.
 
 Summary rows are removed by retaining Ensembl gene IDs beginning `ENSG`. Where multiple retained Ensembl IDs share a gene symbol, their unstranded counts are summed per sample; this is an explicit aggregation, not a silent row drop. Duplicate samples are recorded in the manifest. The deterministic rule retains the newest `updated_datetime`, with UUID as a tie-breaker.
 
 ## Outputs
 
 - `scripts/download_tcga_paad.py`: reproducible query, validation, download, and matrix build script
-- `data/processed/PAAD_27gene_raw_counts.csv`: raw count matrix
-- `data/processed/PAAD_27gene_log2_counts.csv`: log2-transformed count matrix
-- `data/processed/PAAD_sample_metadata.csv`: sample and GDC file metadata
-- `notebooks/01_PAAD_Data_Preparation.ipynb`: preparation quality checks
-- `notebooks/02_PAAD_Hot_Cold_Panel.ipynb`: continuous Hot/Cold scoring without classification
+- `data/processed/{code}_27gene_raw_counts.csv`: raw count matrix
+- `data/processed/{code}_27gene_log2_counts.csv`: log2-transformed count matrix
+- `data/processed/{code}_sample_metadata.csv`: sample and GDC file metadata
 """
-    (root / "README.md").write_text(readme, encoding="utf-8")
+    (root / "results" / "tables" / f"{code}_README.md").write_text(readme, encoding="utf-8")
 
 
 def final_report(status: dict[str, Any]) -> str:
+    code = project_code()
     output_files = [
-        "data/processed/PAAD_27gene_raw_counts.csv",
-        "data/processed/PAAD_27gene_log2_counts.csv",
-        "data/processed/PAAD_sample_metadata.csv",
-        "data/processed/gdc_paad_star_counts_manifest.csv",
+        f"data/processed/{code}_27gene_raw_counts.csv",
+        f"data/processed/{code}_27gene_log2_counts.csv",
+        f"data/processed/{code}_sample_metadata.csv",
+        f"data/processed/gdc_{code.lower()}_star_counts_manifest.csv",
     ]
     return "\n".join([
         "FINAL REPORT",
@@ -377,36 +387,54 @@ def final_report(status: dict[str, Any]) -> str:
 
 
 def main() -> int:
+    global PROJECT
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--project", choices=["TCGA-PAAD", "TCGA-SKCM", "TCGA-BRCA"], default=PROJECT, help="TCGA project to retrieve.")
     parser.add_argument("--download", action="store_true", help="Download selected UUID-addressed STAR-Counts files and build matrices.")
+    parser.add_argument("--from-saved-manifest", action="store_true", help="Build matrices locally from a previously validated manifest and complete raw UUID files.")
     args = parser.parse_args()
+    PROJECT = args.project
     root = Path(__file__).resolve().parents[1]
     paths = make_dirs(root)
     retrieval_date = datetime.now(UTC).replace(microsecond=0).isoformat()
-    with requests.Session() as session:
-        session.headers.update({"User-Agent": "TCGA-PAAD-Hot-Cold-preparation/1.0"})
-        payload, response = query_files(session)
-        status_response = api_json(session, "/status", method="GET")
-        hits = response.get("data", {}).get("hits", [])
-        records, validation_errors = validate_and_manifest(hits)
-        write_csv(records, paths["processed"] / "gdc_paad_star_counts_manifest.csv")
-        (paths["processed"] / "gdc_paad_star_counts_api_query.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
-        (paths["processed"] / "gdc_paad_star_counts_api_response.json").write_text(json.dumps(response, indent=2), encoding="utf-8")
-        validation_text = print_validation(hits, records, validation_errors)
-        (paths["tables"] / "PAAD_retrieval_validation.txt").write_text(validation_text + "\n", encoding="utf-8")
-        if validation_errors:
-            raise RuntimeError("Metadata validation failed; no files will be downloaded. See results/tables/PAAD_retrieval_validation.txt")
+    code = project_code()
+    if args.from_saved_manifest:
+        manifest_path = paths["processed"] / f"gdc_{code.lower()}_star_counts_manifest.csv"
+        response_path = paths["processed"] / f"gdc_{code.lower()}_star_counts_api_response.json"
+        if not manifest_path.is_file() or not response_path.is_file():
+            raise RuntimeError("Saved manifest or GDC response is unavailable; run metadata validation before offline assembly.")
+        records = pd.read_csv(manifest_path, dtype=str).fillna("").to_dict("records")
+        hits = json.loads(response_path.read_text(encoding="utf-8")).get("data", {}).get("hits", [])
         selected = [row for row in records if row["selection_status"] == "selected"]
         if not args.download:
-            print("Metadata-only mode complete. Review the manifest, then rerun with --download to retrieve files.")
-            return 0
-        files_downloaded = download_files(session, selected, paths["raw"])
+            raise RuntimeError("Offline assembly requires --download to confirm matrix creation.")
+        files_downloaded = 0
+        print(f"Offline assembly: reusing {len(selected)} selected UUID files from {manifest_path.name}.")
+    else:
+        with requests.Session() as session:
+            session.headers.update({"User-Agent": "TCGA-Hot-Cold-preparation/1.0"})
+            payload, response = query_files(session)
+            status_response = api_json(session, "/status", method="GET")
+            hits = response.get("data", {}).get("hits", [])
+            records, validation_errors = validate_and_manifest(hits)
+            write_csv(records, paths["processed"] / f"gdc_{code.lower()}_star_counts_manifest.csv")
+            (paths["processed"] / f"gdc_{code.lower()}_star_counts_api_query.json").write_text(json.dumps(payload, indent=2), encoding="utf-8")
+            (paths["processed"] / f"gdc_{code.lower()}_star_counts_api_response.json").write_text(json.dumps(response, indent=2), encoding="utf-8")
+            validation_text = print_validation(hits, records, validation_errors)
+            (paths["tables"] / f"{code}_retrieval_validation.txt").write_text(validation_text + "\n", encoding="utf-8")
+            if validation_errors:
+                raise RuntimeError(f"Metadata validation failed; no files will be downloaded. See results/tables/{code}_retrieval_validation.txt")
+            selected = [row for row in records if row["selection_status"] == "selected"]
+            if not args.download:
+                print("Metadata-only mode complete. Review the manifest, then rerun with --download to retrieve files.")
+                return 0
+            files_downloaded = download_files(session, selected, paths["raw"])
 
     matrix, missing, parser_info = build_matrices(selected, paths["raw"], paths["processed"])
     sample_metadata = pd.DataFrame(selected)[["sample_id", "case_id", "case_submitter_id", "sample_type", "project", "file_uuid", "file_name", "workflow", "access"]]
     if sample_metadata["sample_id"].duplicated().any():
         raise RuntimeError("Sample IDs are not unique after duplicate handling.")
-    sample_metadata.to_csv(paths["processed"] / "PAAD_sample_metadata.csv", index=False)
+    sample_metadata.to_csv(paths["processed"] / f"{project_code()}_sample_metadata.csv", index=False)
     if matrix.columns.duplicated().any() or matrix.index.duplicated().any():
         raise RuntimeError("Expression matrix has duplicate sample IDs or gene symbols.")
     if len(matrix.columns) != len(sample_metadata):
@@ -416,13 +444,13 @@ def main() -> int:
         "files_found": len(hits), "files_selected": len(selected), "files_downloaded": completed_files,
         "files_downloaded_this_run": files_downloaded,
         "samples": len(matrix.columns), "genes_found": len(REQUESTED_GENES) - len(missing),
-        "missing_genes": missing, "gdc_release": status_response.get("data_release", status_response.get("version", "not reported")),
+        "missing_genes": missing, "gdc_release": ("Data Release 46.0 - August 10, 2026 (recorded during GDC metadata validation)" if args.from_saved_manifest else status_response.get("data_release", status_response.get("version", "not reported"))),
         "retrieval_date": retrieval_date, "parser_columns": parser_info["resolved_columns"],
     }
     write_readme(root, status)
     report = final_report(status)
     print(report)
-    (paths["tables"] / "PAAD_final_report.txt").write_text(report + "\n", encoding="utf-8")
+    (paths["tables"] / f"{project_code()}_final_report.txt").write_text(report + "\n", encoding="utf-8")
     return 0
 
 

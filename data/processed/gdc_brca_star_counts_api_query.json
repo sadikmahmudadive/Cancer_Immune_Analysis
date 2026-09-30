@@ -1,0 +1,73 @@
+{
+  "filters": {
+    "op": "and",
+    "content": [
+      {
+        "op": "in",
+        "content": {
+          "field": "cases.project.project_id",
+          "value": [
+            "TCGA-BRCA"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "data_category",
+          "value": [
+            "Transcriptome Profiling"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "data_type",
+          "value": [
+            "Gene Expression Quantification"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "experimental_strategy",
+          "value": [
+            "RNA-Seq"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "analysis.workflow_type",
+          "value": [
+            "STAR - Counts"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "cases.samples.sample_type",
+          "value": [
+            "Primary Tumor"
+          ]
+        }
+      },
+      {
+        "op": "in",
+        "content": {
+          "field": "access",
+          "value": [
+            "open"
+          ]
+        }
+      }
+    ]
+  },
+  "fields": "file_id,file_name,access,data_category,data_type,experimental_strategy,analysis.workflow_type,release_state,created_datetime,updated_datetime,cases.case_id,cases.submitter_id,cases.project.project_id,cases.samples.sample_id,cases.samples.submitter_id,cases.samples.sample_type",
+  "format": "JSON",
+  "size": 10000
+}
